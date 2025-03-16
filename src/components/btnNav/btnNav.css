@@ -26,12 +26,12 @@
     box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.308);
 }
 
-/* @media(min-width: 900px) {
-    nav {
-        height: 12rem;
-        padding: 0 6rem;
+@media(min-width: 600px) {
+    .box-btn-nav {
+        width: 18rem;
+        height: 4.5rem;
     }
-} */
-/* .btn-active {
-    background: ;
-} */
+    .box-btn-nav .btn-nav {
+        font-size: 1.8rem;
+    }
+}
