@@ -1,6 +1,8 @@
 :root {
   --white: #ffffff;
   --black: #000000;
+  --box-shadow: #0000003f;
+  --gray: #666666;
   --coffee: #CC9A48;
   --soft-mocha: #826343;
   --blue: #3C95FF;
@@ -8,6 +10,7 @@
   --orange: #FF7A00;
   --font-regular: 400;
   --font-bold: 600;
+  --font-family: "Raleway", serif;
 }
 
 * {
@@ -17,8 +20,16 @@
 }
 html {
   font-size: 62.5%;
-  font-family: "Raleway", serif;
+  font-family: var(--font-family);
 }
 body {
-  background-color: rgba(0,0,0,.78);
+  background-color: var(--white);
+  min-width: 32rem;
+  overflow: hidden;
+}
+button {
+  outline: none;
+  border: none;
+  background: none;
+  font-family: "Raleway", serif;
 }

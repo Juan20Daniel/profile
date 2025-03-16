@@ -1,11 +1,21 @@
-import Font from './components/font/Font';
+import Main from './components/main/Main';
+import MenuProvider from './context/menu/MenuProvider';
+import AboutMe from './components/aboutMe/AboutMe';
+import Proyects from './components/proyects/Proyects';
+import Experience from './components/experience/Experience';
+import Skills from './components/skills/Skills';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <Font>
-     
-    </Font>
+      <MenuProvider>
+        <Main>
+          <AboutMe />
+          <Proyects />
+          <Experience />
+          <Skills />
+        </Main>
+      </MenuProvider>
   );
 }
 

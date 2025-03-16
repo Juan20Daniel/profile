@@ -1,0 +1,25 @@
+.info {
+    background: var(--white);
+    border-radius: 0 4.3rem 3rem 3rem;
+}
+.horizontal section .header-content .info {
+    grid-row: 1 / 2;
+    border-radius: 3rem 0 0 3rem;
+    background: none;
+}
+@media(min-width: 800px) and (min-height: 440px) {
+    .info {
+        border-radius: 0 5.3rem 4rem 4rem;
+    }
+    .horizontal section .header-content .info {
+        border-radius: 4rem 0 0 4rem;
+    }
+}
+@media(min-width: 440px) and (min-height: 800px) {
+    .info {
+        border-radius: 0 5.3rem 4rem 4rem;
+    }
+    .horizontal section .header-content .info {
+        border-radius: 4rem 0 0 4rem;
+    }
+}
