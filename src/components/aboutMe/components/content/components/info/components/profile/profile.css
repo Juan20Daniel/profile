@@ -1,24 +1,25 @@
 .profile {
     display: flex;
     justify-content: space-between;
-    margin: 2rem;
+    margin: 2rem 2rem 0rem 2rem;
 }
 .horizontal .profile {
     margin: 2rem;
 }
-
 .profile .box-logo {
-    width: 13rem;
+    width: 10.5rem;
 }
 .horizontal .profile .box-logo {
-    width: 16rem;
+    width: 13rem;
 }
-
 .profile .box-photo {
+    width: 3rem;
+    height: 3rem;
+}
+.horizontal .profile .box-photo {
     width: 4rem;
     height: 4rem;
 }
-
 .profile .box-logo .logo,
 .profile .box-photo .photo {
     width: 100%;
@@ -31,23 +32,60 @@
 .profile .box-photo .photo {
     border-radius: 50%;
 }
-
-@media(min-width: 400px) {
-    .profile {
-        margin: 2rem;
-    }
+@media(min-height: 600px) {
     .profile .box-logo {
-        width: 18rem;
+        width: 15rem;
     }
     .profile .box-photo {
         width: 5rem;
         height: 5rem;
     }
 }
-
+@media(min-height: 900px) {
+    .profile .box-logo {
+        width: 19rem;
+    }
+    .profile .box-photo {
+        width: 6rem;
+        height: 6rem;
+    }
+}
 @media(min-width: 600px) {
     .profile {
-        margin: 4rem;
+        margin: 4rem 4rem 0rem 4rem;
+    }
+    .profile .box-logo {
+        width: 24rem;
+    }
+    .profile .box-photo {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+@media(min-width: 800px) {
+    .profile {
+        margin: 4rem 4rem 0rem 4rem;
+    }
+    .profile .box-logo {
+        width: 30rem;
+    }
+    .profile .box-photo {
+        width: 9rem;
+        height: 9rem;
+    }
+}
+@media(min-width: 1000px) {
+    .profile .box-logo {
+        width: 33rem;
+    }
+    .profile .box-photo {
+        width: 10rem;
+        height: 10rem;
+    }
+}
+/* @media(min-width: 600px) {
+    .profile {
+        margin: 4rem 4rem 2rem 4rem;
     }
     .profile .box-logo {
         width: 24rem;
@@ -59,7 +97,7 @@
 }
 @media(min-width: 1000px) {
     .profile {
-        margin: 6rem;
+        margin: 6rem 6rem 2rem 6rem;
     }
     .profile .box-logo {
         width: 35rem;
@@ -68,4 +106,4 @@
         width: 9rem;
         height: 9rem;
     }
-}
+} */
