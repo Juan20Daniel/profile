@@ -1,0 +1,54 @@
+.specialty .nav-btns {
+    display: flex;
+    justify-content: center;
+}
+.box-specialty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    height: 100%;
+    gap: 0.5rem;
+}
+.box-specialty .specialty,
+.box-specialty .languege {
+    font-weight: 300;
+} 
+.box-specialty .specialty {
+    font-size: 2.5rem;
+}
+.box-specialty .languege {
+    font-size: 1.6rem;
+}
+
+@media(min-width:400px) {
+    .box-specialty .specialty {
+        font-size: 3rem;
+    }
+    .box-specialty .languege {
+        font-size: 1.8rem;
+    }   
+}
+@media(min-width:600px) {
+    .box-specialty .specialty {
+        font-size: 4rem;
+    }
+    .box-specialty .languege {
+        font-size: 2.5rem;
+    }
+    .horizontal .box-specialty .specialty {
+        font-size: 2.6rem;
+    }
+    .horizontal .box-specialty .languege {
+        font-size: 1.7rem;
+    }
+}
+@media(min-width:1000px) {
+    .box-specialty .specialty {
+        font-size: 6rem;
+    }
+    .box-specialty .languege {
+        font-size: 3.5rem;
+    }   
+}

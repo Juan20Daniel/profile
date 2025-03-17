@@ -1,0 +1,106 @@
+.about {
+    margin: 1rem 2rem 1rem 2rem;
+}
+.horizontal .about {
+    margin: 1rem 2rem 1rem 2rem;
+}
+.about .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.horizontal .about .about-title {
+    font-size: 3rem;
+}
+.about .about-title span {
+    color: var(--soft-mocha);
+}
+.about .description {
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 23.1rem;
+}
+.horizontal .about .description {
+    font-size: 0.8rem;
+    max-width: 23.1rem;
+}
+@media(min-height: 600px) {
+    .about {
+        margin: 1.5rem 2rem 1.5rem 2rem;
+    }
+    .about .about-title {
+        font-size: 4rem;
+    }
+    .about .description {
+        font-size: 0.9rem;
+        max-width: 25rem;
+    }
+}
+@media(min-height: 800px) {
+    .about {
+        margin: 2rem;
+    }
+    .about .about-title {
+        font-size: 4.5rem;
+    }
+    .about .description {
+        font-size: 1rem;
+        max-width: 25.5rem;
+    }
+}
+@media(min-height: 900px) {
+    .about {
+        margin: 2.5rem 2rem 2.5rem 2rem;
+    }
+    .about .about-title {
+        font-size: 5rem;
+    }
+}
+@media(min-width: 600px) {
+    .about {
+        margin: 1.5rem 4rem 1.5rem 4rem;
+    }
+    .about .about-title {
+        font-size: 5.5rem;
+    }
+    .about .description {
+        font-size: 1.5rem;
+        max-width: 40rem;
+    }
+}
+@media(min-width: 800px) {
+    .about {
+        margin: 2.5rem 4rem 2.5rem 4rem;
+    }
+    .about .about-title {
+        font-size: 7rem;
+    }
+    .about .description {
+        font-size: 1.9rem;
+        max-width: 55rem;
+    }
+}
+@media(min-width: 1000px) {
+    .about {
+        margin: 3rem 4rem 2.5rem 4rem;
+    }
+    .about .about-title {
+        font-size: 8rem;
+    }
+    .about .description {
+        font-size: 2.2rem;
+        max-width: 60rem;
+    }
+}
+/* @media(min-width: 1000px) {
+    .about {
+        margin: 3rem 6rem 3rem 6rem;
+    }
+    .about .about-title {
+        font-size: 8rem;
+    }
+    .about .description {
+        font-size: 1.8rem;
+        max-width: 47rem;
+    }
+} */
