@@ -16,19 +16,24 @@
     font-weight: 300;
 } 
 .box-specialty .specialty {
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+.horizontal .box-specialty .specialty {
+    font-size: 2rem;
 }
 .box-specialty .languege {
+    font-size: 1.3rem;
+}
+.horizontal .box-specialty .languege {
     font-size: 1.6rem;
 }
-
 @media(min-width:400px) {
     .box-specialty .specialty {
         font-size: 3rem;
     }
     .box-specialty .languege {
         font-size: 1.8rem;
-    }   
+    }
 }
 @media(min-width:600px) {
     .box-specialty .specialty {

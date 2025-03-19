@@ -4,21 +4,21 @@
     margin: 2rem 2rem 0rem 2rem;
 }
 .horizontal .profile {
-    margin: 2rem;
+    margin: 2rem 2rem 0rem 2rem;
 }
 .profile .box-logo {
     width: 10.5rem;
 }
 .horizontal .profile .box-logo {
-    width: 13rem;
+    width: 11rem;
 }
 .profile .box-photo {
     width: 3rem;
     height: 3rem;
 }
 .horizontal .profile .box-photo {
-    width: 4rem;
-    height: 4rem;
+    width: 3rem;
+    height: 3rem;
 }
 .profile .box-logo .logo,
 .profile .box-photo .photo {
@@ -31,6 +31,11 @@
 }
 .profile .box-photo .photo {
     border-radius: 50%;
+}
+@media(min-height:350px) {
+    .horizontal .profile {
+        margin: 2rem 2rem 2rem 2rem;
+    }
 }
 @media(min-height: 600px) {
     .profile .box-logo {
