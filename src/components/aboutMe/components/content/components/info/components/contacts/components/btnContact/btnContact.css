@@ -1,19 +1,28 @@
 .btn-contact {
     background: var(--green);
-    padding: 1rem;
+    padding: 0.6rem;
     border-radius: 5rem;
     display: flex;
 }
 .horizontal .btn-contact {
-    padding: 0.7rem;
+    padding: 0.5rem;
 }
 .btn-contact svg {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.3rem;
+    height: 1.3rem;
 }
 .horizontal .btn-contact svg {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+@media(min-height:350px) {
+    .horizontal .btn-contact {
+        padding: 0.7rem;
+    }
+    .horizontal .btn-contact svg {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
 }
 @media(min-height:600px) {
     .btn-contact svg {
