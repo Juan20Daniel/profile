@@ -2,7 +2,7 @@
     margin: 1rem 2rem 1rem 2rem;
 }
 .horizontal .about {
-    margin: 1rem 2rem 1rem 2rem;
+    margin: 0 0 1rem 2rem;
 }
 .about .about-title {
     font-size: 3rem;
@@ -30,21 +30,59 @@
         font-size: 2.8rem;
     }
 }
+@media(min-height: 400px) {
+    .horizontal .about .about-title {
+        font-size: 3.5rem;
+        margin-bottom: 1rem;
+    }
+    .horizontal .about .description {
+        font-size: 0.9rem;
+    }
+}
+@media(min-height: 500px) {
+    .horizontal .about {
+        padding-top: 1rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .horizontal .about .about-title {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    .horizontal .about .description {
+        font-size: 0.9rem;
+    }
+}
 @media(min-height: 600px) {
     .about {
         margin: 1.5rem 2rem 1.5rem 2rem;
     }
+    .horizontal .about {
+        margin: 0 0 2rem 4rem;
+    }
     .about .about-title {
         font-size: 4rem;
     }
+   
     .about .description {
         font-size: 0.9rem;
         max-width: 25rem;
     }
+    .horizontal .about .about-title {
+        font-size: 6rem;
+    }
+    .horizontal .about .description {
+        font-size: 1.3rem;
+        max-width: 34rem;
+    }
+
 }
+
 @media(min-height: 800px) {
     .about {
         margin: 2rem;
+    }
+    .horizontal .about {
+        margin: 0 0 2rem 4rem;
     }
     .about .about-title {
         font-size: 4.5rem;
@@ -53,13 +91,29 @@
         font-size: 1rem;
         max-width: 25.5rem;
     }
+
+    .horizontal .about .description {
+        font-size: 1.5rem;
+        max-width: 40rem;
+    }
 }
 @media(min-height: 900px) {
     .about {
         margin: 2.5rem 2rem 2.5rem 2rem;
     }
+    .horizontal .about {
+        margin: 0 0 3rem 6rem;
+    }
     .about .about-title {
         font-size: 5rem;
+    }
+    .horizontal .about .about-title {
+        font-size: 7rem;
+    }
+    
+    .horizontal .about .description {
+        font-size: 1.8rem;
+        max-width: 48rem;
     }
 }
 @media(min-width: 600px) {

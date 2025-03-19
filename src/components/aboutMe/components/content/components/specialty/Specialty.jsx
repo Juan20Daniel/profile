@@ -5,7 +5,7 @@ import { useGetSizeWindow } from '@hooks/useGetSizeWindow';
 import { useGetOrientation } from '@hooks/useGetOrientation';
 import './specialty.css';
 const Specialty = () => {
-    const { width } = useGetSizeWindow();
+    const { width, height } = useGetSizeWindow();
     const { orientation } = useGetOrientation();
     return (
         <div className="specialty">
