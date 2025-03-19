@@ -34,25 +34,88 @@
 }
 @media(min-height:350px) {
     .horizontal .profile {
-        margin: 2rem 2rem 2rem 2rem;
+        margin: 2rem 0 2rem 2rem;
+    }
+}
+@media(min-height:400px) {
+    .horizontal .profile .box-logo {
+        width: 14.5rem;
+    }
+    .horizontal .profile .box-photo {
+        width: 4rem;
+        height: 4rem;
+    }
+}
+@media(min-height:500px) {
+    .horizontal .profile .box-logo {
+        width: 15.5rem;
+    }
+    .horizontal .profile .box-photo {
+        width: 4.5rem;
+        height: 4.5rem;
     }
 }
 @media(min-height: 600px) {
+    .horizontal .profile {
+        margin: 4rem 0rem 4rem 4rem;
+    }
     .profile .box-logo {
         width: 15rem;
+    }
+    .horizontal .profile .box-logo {
+        width: 18rem;
     }
     .profile .box-photo {
         width: 5rem;
         height: 5rem;
     }
+    .horizontal .profile .box-photo {
+        width: 6rem;
+        height: 6rem;
+    }
 }
+
+@media(min-height: 700px) {
+
+    .horizontal .profile .box-logo {
+        width: 21rem;
+    }
+    .horizontal .profile .box-photo {
+        width: 7rem;
+        height: 7rem;
+    }
+}
+
+@media(min-height: 700px) {
+    .horizontal .profile {
+        margin: 4rem 0rem 5rem 4rem;
+    }
+    .horizontal .profile .box-logo {
+        width: 24rem;
+    }
+    .horizontal .profile .box-photo {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
 @media(min-height: 900px) {
+    .horizontal .profile {
+        margin: 6rem 0rem 5rem 6rem;
+    }
     .profile .box-logo {
         width: 19rem;
+    }
+    .horizontal .profile .box-logo {
+        width: 27rem;
     }
     .profile .box-photo {
         width: 6rem;
         height: 6rem;
+    }
+    .horizontal .profile .box-photo {
+        width: 9rem;
+        height: 9rem;
     }
 }
 @media(min-width: 600px) {
@@ -88,27 +151,3 @@
         height: 10rem;
     }
 }
-/* @media(min-width: 600px) {
-    .profile {
-        margin: 4rem 4rem 2rem 4rem;
-    }
-    .profile .box-logo {
-        width: 24rem;
-    }
-    .profile .box-photo {
-        width: 7rem;
-        height: 7rem;
-    }
-}
-@media(min-width: 1000px) {
-    .profile {
-        margin: 6rem 6rem 2rem 6rem;
-    }
-    .profile .box-logo {
-        width: 35rem;
-    }
-    .profile .box-photo {
-        width: 9rem;
-        height: 9rem;
-    }
-} */

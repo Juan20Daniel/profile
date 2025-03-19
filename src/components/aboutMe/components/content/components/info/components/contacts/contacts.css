@@ -47,14 +47,33 @@
     padding-top: 1rem;
     margin-left: 2rem;
 }
-@media(min-height:350px) {
-   
+@media(min-height:400px) {
+    .horizontal .contacts .box-contact-title {
+        width: 15rem;
+        height: 3.5rem;
+    }
+    .horizontal .contacts .box-contact-title span {
+        font-size: 1.2rem;
+    }
+    .horizontal .contacts .box-contact-title svg {
+        width: 1.7rem;
+        height: 1.7rem;
+    }
+    .horizontal .box-btn-contacts {
+        width: 12.5rem;
+        padding-top: 1.5rem;
+    }
 }
 @media(min-height:600px) {
     .contacts .box-contact-title {
         width: 21rem;
         height: 4.5rem;
         padding: 0 1.5rem 0 4.5rem;
+    }  
+    .horizontal .contacts .box-contact-title {
+        width: 25rem;
+        height: 4.5rem;
+        padding: 0 1.5rem 0 4rem;
     }  
     .contacts .box-contact-title span {
         font-size: 1.5rem;
@@ -66,21 +85,48 @@
     .box-btn-contacts {
         width: 18rem;
     }
+    .horizontal .contacts .box-contact-title span {
+        font-size: 1.8rem;
+    } 
+    .horizontal .contacts .box-contact-title svg {
+        width: 2.6rem;
+        height: 2.6rem;
+    }
+    .horizontal .box-btn-contacts {
+        width: 20rem;
+        margin-left: 4rem;
+    }
 }
 @media(min-height:900px) {
     .contacts .box-contact-title {
         width: 23rem;
         height: 5rem;
     }  
+    .horizontal .contacts .box-contact-title {
+        width: 29rem;
+        height: 5.5rem;
+        padding: 0 1.5rem 0 6rem;
+    }  
     .contacts .box-contact-title span {
         font-size: 1.8rem;
+    } 
+    .horizontal .contacts .box-contact-title span {
+        font-size: 2rem;
     } 
     .contacts .box-contact-title svg {
         width: 2.5rem;
         height: 2.5rem;
     }
+    .horizontal .contacts .box-contact-title svg {
+        width: 2.8rem;
+        height: 2.8rem;
+    }
     .box-btn-contacts {
         width: 20rem;
+    }    
+    .horizontal .box-btn-contacts {
+        width: 22rem;
+        margin-left: 6rem;
     }
 }
 @media(min-width:600px) {
@@ -118,6 +164,7 @@
         height: 3.4rem;
     }
     .box-btn-contacts {
+        padding-top: 2rem;
         width: 23rem;
     }
 }

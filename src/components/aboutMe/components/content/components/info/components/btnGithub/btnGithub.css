@@ -9,9 +9,8 @@
 }
 .horizontal .btn-github {
     bottom: 2rem;
-    left: 0rem;
-    margin-left: 2rem;
-    height: 1.5rem;
+    left: 2rem;
+    height: 1.8rem;
 }
 .btn-github svg {
     width: 1.5rem;
@@ -29,6 +28,19 @@
     font-size: 1.2rem;
     color: var(--black);
 }
+@media(min-height:400px) {
+    .horizontal .btn-github {
+        height: 2rem;
+    }
+    .horizontal .btn-github svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    .horizontal .btn-github span {
+        font-size: 1.4rem;
+        color: var(--black);
+    }
+}
 @media(min-height:600px) {
     .btn-github {
         height: 2rem;
@@ -39,6 +51,18 @@
     }
     .btn-github span {
         font-size: 1.5rem;
+    }
+    .horizontal .btn-github {
+        bottom: 4rem;
+        left: 4rem;
+        height: 3rem;
+    }
+    .horizontal .btn-github svg {
+        width: 3rem;
+        height: 3rem;
+    }
+    .horizontal .btn-github span {
+        font-size: 2.1rem;
     }
 }
 @media(min-height:900px) {
@@ -51,6 +75,19 @@
     }
     .btn-github span {
         font-size: 2rem;
+    }
+
+    .horizontal .btn-github {
+        bottom: 6rem;
+        left: 6rem;
+        height: 5rem;
+    }
+    .horizontal .btn-github svg {
+        width: 5rem;
+        height: 5rem;
+    }
+    .horizontal .btn-github span {
+        font-size: 3rem;
     }
 }
 @media(min-width:600px) {
