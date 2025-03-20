@@ -10,9 +10,9 @@ const Specialty = () => {
     return (
         <div className="specialty">
             <Navbar>
-                {width <= 599 || orientation === 'horizontal'
+                {width <= 599 || orientation === 'horizontal' && height <= 700
                     ?   <BtnMenu />
-                    :   <div className="nav-btns">
+                    :   <div className={`nav-btns ${orientation === 'horizontal' && height >= 700 && 'align-vertical'}`}>
                             <BtnNav 
                                 value='Experiencia'
                                 color='white'
