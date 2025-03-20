@@ -5,7 +5,18 @@
     display: flex;
     align-items: center;
     gap: 0.5rem;
+    max-width: 15rem;
     height: 1.5rem;
+    color: var(--black);
+}
+.btn-github:active svg path {
+    fill: var(--gray);
+}
+.btn-github:active span {
+    color: var(--gray);
+}
+.btn-github:active {
+    text-decoration-color: var(--gray);
 }
 .horizontal .btn-github {
     bottom: 2rem;
@@ -22,12 +33,11 @@
 }
 .btn-github span {
     font-size: 1.2rem;
-    color: var(--black);
 }
 .horizontal .btn-github span {
     font-size: 1.2rem;
-    color: var(--black);
 }
+
 @media(min-height:400px) {
     .horizontal .btn-github {
         height: 2rem;
@@ -38,7 +48,6 @@
     }
     .horizontal .btn-github span {
         font-size: 1.4rem;
-        color: var(--black);
     }
 }
 @media(min-height:600px) {

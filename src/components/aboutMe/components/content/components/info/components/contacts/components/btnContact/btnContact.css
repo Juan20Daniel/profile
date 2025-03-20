@@ -42,6 +42,15 @@
         height: 2.3rem;
     }
 }
+@media(min-height:700px) {
+    .btn-contact svg {
+        width: 2rem;
+        height: 2rem;
+    }
+    .btn-contact {
+        padding: 1rem;
+    }
+}
 @media(min-height:900px) {
     .btn-contact {
         padding: 1.3rem;
