@@ -1,6 +1,7 @@
 import Main from './components/main/Main';
 import MenuProvider from './context/menu/MenuProvider';
-import AboutMe from './components/aboutMe/AboutMe';
+import AboutProvider from './context/about/AboutProvider';
+import About from './components/about/About';
 import Proyects from './components/proyects/Proyects';
 import Experience from './components/experience/Experience';
 import Skills from './components/skills/Skills';
@@ -8,14 +9,16 @@ import './App.css';
 
 const App = () => {
   return (
+    <AboutProvider>
       <MenuProvider>
         <Main>
-          <AboutMe />
+          <About />
           <Proyects />
           <Experience />
           <Skills />
         </Main>
       </MenuProvider>
+    </AboutProvider>
   );
 }
 
