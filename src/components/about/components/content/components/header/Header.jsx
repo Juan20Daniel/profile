@@ -10,11 +10,12 @@ const Header = () => {
     const { proyects, skills, experience } = useContext(AboutContext);
     const { width, height } = useGetSizeWindow();
     const { orientation } = useGetOrientation();
-   
+
+
     return (
         <header>
             <Navbar>
-                {width <= 599 || orientation === 'horizontal' && height <= 700
+                {width <= 599 || height <= 450 || (orientation === 'horizontal' && width <= 1100)
                     ?   <BtnMenu />
                     :   <div className={`nav-btns ${orientation === 'horizontal' && height >= 700 && 'align-vertical'}`}>
                             <BtnNav 
