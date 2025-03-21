@@ -1,14 +1,18 @@
+import { useContext } from 'react';
+import { useGetOrientation } from '@hooks/useGetOrientation';
+import { useGetSizeWindow } from '@hooks/useGetSizeWindow';
+import AboutContext from '@context/about/AboutContext';
 import Navbar from '@components/navbar/Navbar';
 import BtnMenu from '@components/btnMenu/BtnMenu';
 import BtnNav from '@components/btnNav/BtnNav';
-import { useGetSizeWindow } from '@hooks/useGetSizeWindow';
-import { useGetOrientation } from '@hooks/useGetOrientation';
-import './specialty.css';
-const Specialty = () => {
+import './header.css';
+const Header = () => {
+    const { proyects, skills, experience } = useContext(AboutContext);
     const { width, height } = useGetSizeWindow();
     const { orientation } = useGetOrientation();
+   
     return (
-        <div className="specialty">
+        <header>
             <Navbar>
                 {width <= 599 || orientation === 'horizontal' && height <= 700
                     ?   <BtnMenu />
@@ -16,15 +20,18 @@ const Specialty = () => {
                             <BtnNav 
                                 value='Experiencia'
                                 color='white'
+                                action={experience}
                             />  
                             <BtnNav 
                                 value='Habilidades'
                                 color='white'
+                                action={skills}
                             />  
                             <BtnNav 
                                 value='Proyectos'
                                 color='white'
                                 isActive={true}
+                                action={proyects}
                             />      
                         </div>
                 }
@@ -33,8 +40,8 @@ const Specialty = () => {
                 <span className='specialty'>Fullstack developer</span>
                 <span className='languege'>Javascript</span>
             </div>
-        </div>
+        </header>
     );
 }
 
-export default Specialty;
+export default Header;

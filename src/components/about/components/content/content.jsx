@@ -1,9 +1,9 @@
 import './content.css';
-import Specialty from './components/specialty/Specialty';
+import Header from './components/header/header';
 import Info from './components/info/Info';
-const Content = ({id}) =>  (
+const Content = () =>  (
     <div className="header-content">
-        <Specialty />
+        <Header />
         <Info />
     </div>
 );
