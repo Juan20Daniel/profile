@@ -12,15 +12,27 @@ nav {
     height: 7rem;
     padding: 0 2.5rem;
 }
-@media(min-width: 600px) {
-    nav {
+@media(min-height: 700px) {
+    .horizontal nav {
         height: 9rem;
+        padding: 0 3rem;
+    }
+}
+@media(min-height: 700px) {
+    .horizontal nav {
+        height: 9rem;
+        padding: 0 3rem;
+    }
+}
+@media(min-height: 1000px) {
+    nav {
+        height: 10rem;
         padding: 0 4rem;
     }
 }
-@media(min-width: 900px) {
-    nav {
-        height: 12rem;
-        padding: 0 6rem;
+@media(min-width: 1000px) {
+    .horizontal nav {
+        height: 10rem;
+        padding: 0 4rem;
     }
 }
