@@ -58,3 +58,13 @@
         font-size: 1.3rem;
     }
 }
+
+@media(min-width: 1500px) {
+    .box-btn-nav {
+        width: 18rem;
+        height: 4.5rem;
+    }
+    .box-btn-nav .btn-nav {
+        font-size: 1.5rem;
+    }
+}
