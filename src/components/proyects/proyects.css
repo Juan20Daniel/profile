@@ -1,6 +1,19 @@
-.box {
+.section-proyects {
+    box-shadow: none;
+}
+.proyects {
+    width: 100%;
     height: 100%;
 }
-.img-1 {
-    height: 100%;
+
+.horizontal-center {
+    transform: translateX(0%) rotateY(0deg);
+}
+
+.left {
+    transform: translateX(-100%) rotateY(-100deg);
+}
+
+.right {
+    transform: translateX(100%) rotateY(100deg);
 }

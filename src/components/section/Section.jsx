@@ -1,7 +1,7 @@
 import './section.css';
-const Section = ({state, children}) => {
+const Section = ({state, styles, children}) => {
     return (
-        <section className={`${state}`}>
+        <section className={`${state} ${styles}`}>
             {children}
         </section>
     );
