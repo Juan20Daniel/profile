@@ -3,7 +3,7 @@ import SectionContext from "./SectionContext";
 
 const SectionProvider = ({children}) => {
     const [sections, setSections] = useState([
-        {name:'aboutMe', place:'center'},
+        {name:'aboutMe', place:'vertical-center'},
         {name:'proyects', place:'bottom'},
         {name:'skills', place:'bottom'},
         {name:'experience', place:'bottom'}
@@ -20,7 +20,7 @@ const SectionProvider = ({children}) => {
         if(index < 0) index = convertNum(index);
         for(let i=0; i<=index; i++) {
             if(position === nextSection) {
-                copy_sections[position].place = 'center';
+                copy_sections[position].place = 'vertical-center';
             } else if(action === 'increment') {
                 copy_sections[position].place = 'top';
                 position++;

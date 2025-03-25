@@ -13,7 +13,7 @@ section {
     transition-delay: 0.1s;
     z-index: 1;
 }
-.center {
+.vertical-center {
     transform: translateY(0%) rotateX(0deg);
 }
 .top {

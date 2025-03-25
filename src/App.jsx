@@ -1,6 +1,7 @@
 import Main from './components/main/Main';
 import MenuProvider from './context/menu/MenuProvider';
 import AboutProvider from './context/about/AboutProvider';
+import AppsProvider from './context/apps/AppsProvider';
 import About from './components/about/About';
 import Proyects from './components/proyects/Proyects';
 import Experience from './components/experience/Experience';
