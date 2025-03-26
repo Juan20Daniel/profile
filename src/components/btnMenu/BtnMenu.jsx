@@ -1,10 +1,10 @@
 import { useContext } from 'react';
 import { IconMenu } from '@assets/btnMenu/IconMenu';
-import MenuContext from '@context/menu/MenuContext';
+import DropdownMenuContext from '@context/dropdownMenu/DropdownMenuContext';
 import './btnMenu.css';
 
 const BtnMenu = () => {
-    const { openMenu } = useContext(MenuContext)
+    const { openMenu } = useContext(DropdownMenuContext);
     return (
         <button 
             type='button' 

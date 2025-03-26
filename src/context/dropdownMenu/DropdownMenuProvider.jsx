@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
-import MenuContext from "./MenuContext";
+import DropdownMenuContext from "./DropdownMenuContext";
 
-const MenuProvider = ({children}) => {
+const DropdownMenuProvider = ({children}) => {
     const [ menu, setMenu ] = useState(false);
     const elementRef = useRef(null);
     useEffect(() => {
@@ -23,14 +23,14 @@ const MenuProvider = ({children}) => {
         }
     }
     return (
-        <MenuContext.Provider value={{
+        <DropdownMenuContext.Provider value={{
             elementRef,
             menu,
             openMenu,
             closeMenu
         }}>
             {children}
-        </MenuContext.Provider>
+        </DropdownMenuContext.Provider>
     );
 }
-export default MenuProvider;
+export default DropdownMenuProvider;

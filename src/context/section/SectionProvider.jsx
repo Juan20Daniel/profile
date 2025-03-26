@@ -3,10 +3,10 @@ import SectionContext from "./SectionContext";
 
 const SectionProvider = ({children}) => {
     const [sections, setSections] = useState([
-        {name:'aboutMe', place:'vertical-center'},
-        {name:'proyects', place:'bottom'},
-        {name:'skills', place:'bottom'},
-        {name:'experience', place:'bottom'}
+        {position: 0, name:'Sobre mi', place:'vertical-center'},
+        {position: 1, name:'Proyectos', place:'bottom'},
+        {position: 2, name:'Habilidades', place:'bottom'},
+        {position: 3, name:'Experiencia', place:'bottom'}
     ]);
 
     const convertNum = (num) => {

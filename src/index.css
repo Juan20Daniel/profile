@@ -22,11 +22,13 @@ html {
   font-size: 62.5%;
   font-family: var(--font-family);
 }
+html,
 body {
   background-color: var(--white);
   min-width: 32rem;
   overflow: hidden;
 }
+
 button {
   outline: none;
   border: none;
