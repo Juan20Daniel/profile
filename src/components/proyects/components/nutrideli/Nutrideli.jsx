@@ -10,7 +10,7 @@ const Nutrideli = () => {
    return (
         <BoxContentApp position={0}>
             <Navbar title='Mis proyectos'>
-                <BtnMenu />
+                <BtnMenu color="black" />
             </Navbar>
             <p>Nutrideli</p>
             <button onClick={() => changeApp(0, 'left')}>Next</button>
