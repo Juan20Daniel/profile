@@ -3,16 +3,16 @@ import { IconMenu } from '@assets/btnMenu/IconMenu';
 import DropdownMenuContext from '@context/dropdownMenu/DropdownMenuContext';
 import './btnMenu.css';
 
-const BtnMenu = () => {
+const BtnMenu = ({color='white'}) => {
     const { openMenu } = useContext(DropdownMenuContext);
     return (
         <button 
-            type='button' 
-            className="btn-menu" 
+            type='button'
+            className="btn-menu"
             title='Menu'
             onClick={() => openMenu()}
         >
-            <IconMenu />
+            <IconMenu color={color} />
         </button>
     );
 } 
