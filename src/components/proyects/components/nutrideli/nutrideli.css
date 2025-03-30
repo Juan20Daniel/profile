@@ -1,8 +1,46 @@
 .section-apps nav {
-    position: relative;
+    position: absolute;
+    top: 0;
     height: auto;
-    padding: 2rem;
+    padding: 2rem 2rem 0rem 2rem;
     display: flex;
     justify-content: space-between;
-    height: 6.7rem;
+    height: 4.7rem;
+    background: rgba(255, 255, 255, 0);
+    border-radius: 3rem 3rem 0 0;
+    z-index: 1;
 }
+.box-info-app {
+    position: relative;
+    background: radial-gradient(#3C95FF 0%, #FFFFFF 60%);
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-info-app .box-center-info-app {
+    position: relative;
+    width: 100%;
+    height: 60%;
+    background-color: var(--white);
+}
+
+.box-info-app .box-center-info-app img {
+    position: absolute;
+    bottom: 99.8%;
+    width: 100%;
+    height: auto;
+}
+
+.box-info-app .box-center-info-app img:last-child {
+    top: 100%;
+    left: 0;
+    transform: rotate(180deg);
+}
+/* @media(min-height:700px) {
+    .horizontal .box-info-app .box-center-info-app img {
+        height: 5rem;
+     }
+} */
