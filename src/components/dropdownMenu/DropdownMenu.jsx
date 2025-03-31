@@ -5,7 +5,7 @@ import BtnNav from '../btnNav/BtnNav';
 import './dropdownMenu.css';
 const DropdownMenu = () => {
     const [ actualSection, setActialSection ] = useState(0);
-    const { sections, changeSection_test } = useContext(SectionContext);
+    const { sections, changeSection } = useContext(SectionContext);
     const { elementRef, closeMenu } = useContext(DropdownMenuContext);
     useLayoutEffect(() => {
         const result = sections.find(section => section.place === 'vertical-center').position;
@@ -20,7 +20,7 @@ const DropdownMenu = () => {
                     key={section.position}
                     value={section.name}
                     action={() => {
-                        changeSection_test(actualSection, section.position)
+                        changeSection(actualSection, section.position)
                         closeMenu();
                     }}
                 />

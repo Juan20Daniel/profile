@@ -1,16 +1,15 @@
 import { useContext } from 'react';
 import { useGetOrientation } from '@hooks/useGetOrientation';
 import { useGetSizeWindow } from '@hooks/useGetSizeWindow';
-import AboutContext from '@context/about/AboutContext';
+import SectionContext from '@context/section/SectionContext';
 import Navbar from '@components/navbar/Navbar';
 import BtnMenu from '@components/btnMenu/BtnMenu';
 import BtnNav from '@components/btnNav/BtnNav';
 import './header.css';
 const Header = () => {
-    const { proyects, skills, experience } = useContext(AboutContext);
+    const { changeSection } = useContext(SectionContext);
     const { width, height } = useGetSizeWindow();
     const { orientation } = useGetOrientation();
-
 
     return (
         <header>
@@ -21,18 +20,24 @@ const Header = () => {
                             <BtnNav 
                                 value='Experiencia'
                                 color='white'
-                                action={experience}
+                                action={() => {
+                                    changeSection(0, 3);
+                                }}
                             />  
                             <BtnNav 
                                 value='Habilidades'
                                 color='white'
-                                action={skills}
+                                action={() => {
+                                    changeSection(0, 2);
+                                }}
                             />  
                             <BtnNav 
                                 value='Proyectos'
                                 color='white'
                                 isActive={true}
-                                action={proyects}
+                                action={() => {
+                                    changeSection(0, 1);
+                                }}
                             />      
                         </div>
                 }

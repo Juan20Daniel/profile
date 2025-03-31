@@ -3,7 +3,6 @@ import SectionContext from '@context/section/SectionContext';
 import Section from '../section/Section';
 import Font from './components/Font/font';
 import Content from './components/content/Content';
-import './about.css';
 
 const About = () => {
     const { sections } = useContext(SectionContext);
