@@ -132,9 +132,6 @@
     }
 }
 @media(min-width: 800px) {
-    .profile {
-        margin: 4rem 4rem 0rem 4rem;
-    }
     .profile .box-logo {
         width: 30rem;
     }
