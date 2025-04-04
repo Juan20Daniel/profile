@@ -1,0 +1,21 @@
+.info-proyect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.info-proyect .proyect-title {
+    font-size: 1.7rem;
+    margin-top: 0.5rem;
+    font-weight: var(--font-bold);
+}
+.info-proyect .proyect-title-blue {
+    color: var(--blue);
+}
+.info-proyect .development-tools {
+    font-size: 0.8rem;
+}
+.info-proyect .proyect-description {
+    font-size: 0.5rem;
+    width: 15rem;
+    text-align: center;
+}

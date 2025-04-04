@@ -1,0 +1,75 @@
+.galery-nutrideli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 0;
+}
+.horizontal .galery-nutrideli {
+    justify-content: flex-end;
+}
+.container-image {
+    width: 18rem;
+    height: auto;
+}
+@media(min-height:350px) {
+    .horizontal .container-image {
+        width: 16rem;
+    }
+}
+@media(min-height:400px) {
+    .horizontal .container-image {
+        width: 20rem;
+    }
+}
+@media(min-height:600px) {
+    .horizontal .container-image {
+        width: 28rem;
+    }
+}
+@media(min-height:700px) {
+    .container-image {
+        width: 20rem;
+    }
+    .horizontal .container-image {
+        width: 31rem;
+    }
+}
+@media(min-height:800px) {
+    .container-image {
+        width: 22.5rem;
+    }
+    .horizontal .container-image {
+        width: 37rem;
+    }
+}
+@media(min-height:900px) {
+    .container-image {
+        width: 25rem;
+    }
+    .horizontal .container-image {
+        width: 45rem;
+    }
+}
+@media(min-height:1000px) {
+    .container-image {
+        width: 33rem;
+    }
+    .horizontal .container-image {
+        width: 48rem;
+    }
+}
+@media(min-height:1100px) {
+    .container-image {
+        width: 37rem;
+    }
+}
+@media(min-height:1200px) {
+    .container-image {
+        width: 43rem;
+    }
+}
+@media(min-height:1300px) {
+    .container-image {
+        width: 49rem;
+    }
+}
