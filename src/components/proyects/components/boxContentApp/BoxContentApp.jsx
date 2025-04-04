@@ -45,11 +45,11 @@ const BoxContentApp = ({
             </Navbar>
             <div className={`box-info-app font-color-${colorCard}`}>
                 <div className="box-center-info-app">
-                    <img src={figure} alt="Figura" />
-                    <div className="padding">
+                    <img className="figure-proyects" src={figure} alt="Figura" />
+                    <div className="info-app">
                         {children}
                     </div>
-                    <img src={figure} alt="Figura" />
+                    <img className="figure-proyects" src={figure} alt="Figura" />
                 </div>
             </div>
         </Section>

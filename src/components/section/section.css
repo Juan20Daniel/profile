@@ -11,6 +11,7 @@ section {
     backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     transition-delay: 0.1s;
+    will-change: transform, opacity;
     z-index: 1;
 }
 .vertical-center {
@@ -32,10 +33,3 @@ section {
         border-radius: 4rem;
     }
 }
-/*
-@media(min-width: 900px) {
-    .info {
-        background: var(--white);
-        border-radius: 0 7.9rem 3rem 3rem;
-    }
-} */

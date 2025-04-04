@@ -24,23 +24,3 @@ const Proyects = () => {
 }
 
 export default Proyects;
-
-
-
-
-
-// import img1 from '../../assets/proyects/proyect1/img1.jpg';
-// import { LazyLoadImage } from 'react-lazy-load-image-component';
-{/* <LazyLoadImage 
-    alt='Imagen 1'
-    src={img1}
-    width='auto'
-    height='100%'
-    threshold={1}
-    effect="blur"
-    wrapperProps={{
-        // If you need to, you can tweak the effect transition using the wrapper style.
-        style: {transitionDelay: "0.5s"},
-    }}
-/>
-} */}

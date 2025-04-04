@@ -1,21 +1,35 @@
-import { useState, useLayoutEffect } from 'react';
+import { useState, useEffect } from 'react';
 
 export const useGetSizeWindow = () => {
-    const [ width, setWidth ] = useState(window.innerWidth);
-    const [ height, setHeight ] = useState(window.innerHeight);
-    useLayoutEffect(() => {
+    const [ size, setSize ] = useState({
+        width:window.innerWidth,
+        height:window.innerHeight
+    });
+
+     useEffect(() => {
+        let animationFrameId;
+
         const handleResize = () => {
-            setWidth(window.innerWidth);
-            setHeight(window.innerHeight);
-        }
-        window.addEventListener('resize', handleResize);
+            if (animationFrameId) cancelAnimationFrame(animationFrameId);
+
+            animationFrameId = requestAnimationFrame(() => {
+                setSize({
+                    width: window.innerWidth,
+                    height: window.innerHeight,
+                });
+            });
+        };
+
+        window.addEventListener("resize", handleResize);
+        
         return () => {
-            window.removeEventListener('resize', handleResize);
-        }
-    },[]);
+            window.removeEventListener("resize", handleResize);
+            if (animationFrameId) cancelAnimationFrame(animationFrameId);
+        };
+    }, []);
   
     return {
-        width,
-        height
+        width:size.width,
+        height:size.height
     };
 }
