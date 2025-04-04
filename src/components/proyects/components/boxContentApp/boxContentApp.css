@@ -63,7 +63,7 @@
 }
 .box-info-app .box-center-info-app .info-app {
     display: grid;
-    grid-template-rows: 1fr 15rem;
+    grid-template-rows: auto auto;
     height: 100%;
     padding: 0 2rem;
 }

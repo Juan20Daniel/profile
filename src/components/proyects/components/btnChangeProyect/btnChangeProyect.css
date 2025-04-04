@@ -1,0 +1,28 @@
+.btn-change-proyect {
+    color: var(--white);
+    font-size: 1rem;
+    border-radius: 2rem;
+    width: 9rem;
+    height: 2.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    transition: all 0.2s ease;
+}
+.btn-color-blue {
+    border: 0.1rem solid var(--blue);
+    background-color: var(--blue);
+}
+.btn-color-blue:active {
+    border: 0.1rem solid var(--blue-active);
+    background-color: var(--blue-active);
+}
+.btn-color-black {
+    border: 0.1rem solid var(--black);
+    background-color: var(--black);
+}
+.btn-color-black:active {
+    border: 0.1rem solid var(--black-active);
+    background-color: var(--black-active);
+}
