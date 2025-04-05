@@ -6,7 +6,6 @@ import InfoProyect from "../infoProyect/InfoProyect";
 import imgSmall from '@assets/proyects/proyect1/imgSmall.png';
 import imgBig from '@assets/proyects/proyect1/imgBig.png';
 import BtnChangeProyect from "../btnChangeProyect/BtnChangeProyect";
-import './nutrideli.css';
 
 const navigation = {
     about:[1,0],
