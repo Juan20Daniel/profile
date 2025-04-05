@@ -38,7 +38,13 @@
     align-items: center;
 }
 .section-apps .box-content .font-color-blue {
-    background: radial-gradient(#3C95FF 0%, #FFFFFF 60%);
+    background: radial-gradient(#65abff 0%, #FFFFFF 65%);
+}
+.section-apps .box-content .font-color-green {
+    background: radial-gradient(#3d8539 0%, #FFFFFF 65%);
+}
+.section-apps .box-content .font-color-orange {
+    background: radial-gradient(#ffa857 0%, #FFFFFF 65%);
 }
 .box-info-app .box-center-info-app {
     position: relative;
@@ -102,6 +108,9 @@
     .box-info-app .box-center-info-app .info-app {
         padding: 0 4rem;
     }
+    .horizontal .box-info-app .box-center-info-app .figure-proyects {
+        height: 4rem;
+    }
 }
 @media(min-height:600px) {
     .horizontal .section-apps .box-content nav {
@@ -144,11 +153,6 @@
         font-size: 0.8rem;
     }
 }
-@media(min-height:1000px) {
-    .box-content .box-info-app {
-        background: radial-gradient(#54a1ffd5 0%, #FFFFFF 65%);
-    }
-}
 @media(min-width:1000px) {
     .box-content .nav-btns-proyects .box-btn-nav {
         width: 13rem;
@@ -163,11 +167,15 @@
     .box-content .nav-btns-proyects .box-btn-nav .btn-nav:active {
         font-size: 1rem;
     }
+    .horizontal .box-info-app .box-center-info-app .figure-proyects {
+        height: 5rem;
+    }
 }
 
 
 /* Extra long */
 @media(min-width:1500px) {
+
     .horizontal .box-content .nav-btns-proyects .box-btn-nav {
         width: 17rem;
         height: 4rem;
@@ -182,6 +190,18 @@
     }
     .horizontal .box-content .nav-btns-proyects .box-btn-nav .btn-nav:active {
         font-size: 1.2rem;
+    }
+    .section-apps .box-content .font-color-blue {
+        background: radial-gradient(#85bbfdd5 0%, #FFFFFF 75%);
+    }
+    .section-apps .box-content .font-color-green {
+        background: radial-gradient(#77aa74 0%, #FFFFFF 75%);
+    }
+    .section-apps .box-content .font-color-orange {
+        background: radial-gradient(#ffbc7d 0%, #FFFFFF 75%);
+    }
+    .horizontal .box-info-app .box-center-info-app .figure-proyects {
+        height: 6rem;
     }
 }
 

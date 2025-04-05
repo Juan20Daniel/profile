@@ -18,7 +18,9 @@
     color: var(--black);
 }
 .box-btn-nav .btn-white,
-.active .btn-blue {
+.active .btn-blue,
+.active .btn-green,
+.active .btn-orange {
     color: var(--white);
 }
 .active .btn-black {
@@ -33,6 +35,14 @@
 .active .btn-blue {
     background-color: var(--blue);
     box-shadow: 0 0 0.4rem var(--blue-shadow);
+}
+.active .btn-green {
+    background-color: var(--green);
+    box-shadow: 0 0 0.4rem var(--green-shadow);
+}
+.active .btn-orange {
+    background-color: var(--orange);
+    box-shadow: 0 0 0.4rem var(--orange-shadown);
 }
 @media(min-width: 900px) {
     .box-btn-nav {

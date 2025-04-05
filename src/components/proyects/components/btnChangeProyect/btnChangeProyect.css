@@ -9,20 +9,102 @@
     align-items: center;
     padding: 0 1rem;
     transition: all 0.2s ease;
+    cursor: pointer;
 }
+
+.btn-type-back.btn-color-blue,
 .btn-color-blue {
     border: 0.1rem solid var(--blue);
+}
+.btn-color-blue {
     background-color: var(--blue);
 }
 .btn-color-blue:active {
     border: 0.1rem solid var(--blue-active);
     background-color: var(--blue-active);
 }
+.btn-type-back.btn-color-blue {
+    color: var(--blue);
+}
+.btn-type-back.btn-color-blue svg path {
+    fill: var(--blue);
+}
+
+
+.btn-color-green {
+    background-color: var(--green);
+}
+.btn-type-back.btn-color-green:active,
+.btn-color-green:active {
+    background-color: var(--green-active);
+}
+.btn-type-back.btn-color-green {
+    color: var(--green);
+    background: var(--soft-sage);
+}
+.btn-type-back.btn-color-green svg path {
+    fill: var(--green);
+}
+
+.btn-color-orange {
+    background-color: var(--orange);
+}
+.btn-type-back.btn-color-orange:active,
+.btn-color-orange:active {
+    background-color: var(--orange-active);
+}
+.btn-type-back.btn-color-orange {
+    color: var(--orange);
+    background: var(--coral-haze);
+}
+.btn-type-back.btn-color-orange svg path {
+    fill: var(--orange);
+}
+
+.btn-color-black {
+    background-color: var(--black);
+}
+.btn-type-back.btn-color-black,
 .btn-color-black {
     border: 0.1rem solid var(--black);
-    background-color: var(--black);
 }
 .btn-color-black:active {
     border: 0.1rem solid var(--black-active);
     background-color: var(--black-active);
+}
+
+.btn-type-back {
+    background: none;
+    flex-direction: row-reverse; 
+}
+.btn-change-proyect svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.btn-type-back svg {
+    transform: rotateY(-180deg);
+}
+
+@media(min-height: 900px) {
+    .btn-change-proyect {
+        font-size: 1.2rem;
+        width: 12rem;
+        height: 3rem;
+        padding: 0 1.5rem;
+    }
+    .btn-change-proyect svg {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media(min-height: 1100px) {
+    .btn-change-proyect {
+        font-size: 1.3rem;
+        width: 13rem;
+        height: 3.5rem;
+    }
+    .btn-change-proyect svg {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
 }

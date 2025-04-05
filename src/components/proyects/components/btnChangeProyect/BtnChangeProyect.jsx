@@ -1,9 +1,9 @@
 import { IconArrowForward } from '@assets/proyects/IconArrowForward';
 import './btnChangeProyect.css';
-const BtnChangeProyect = ({value, btnColor, action}) => {
+const BtnChangeProyect = ({value, typeAction, btnColor, action}) => {
     return (
         <button 
-            className={`btn-change-proyect btn-color-${btnColor}`} 
+            className={`btn-change-proyect btn-type-${typeAction} btn-color-${btnColor}`} 
             onClick={() => action()}
         >
             <span>{value}</span>
