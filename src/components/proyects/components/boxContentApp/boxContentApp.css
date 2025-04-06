@@ -46,6 +46,9 @@
 .section-apps .box-content .font-color-orange {
     background: radial-gradient(#ffa857 0%, #FFFFFF 65%);
 }
+.section-apps .box-content .font-color-black {
+    background: radial-gradient(#000000 0%, #FFFFFF 65%);
+}
 .box-info-app .box-center-info-app {
     position: relative;
     width: 100%;
@@ -68,10 +71,12 @@
     transform: rotate(180deg);
 }
 .box-info-app .box-center-info-app .info-app {
+    position: relative;
     display: grid;
     grid-template-rows: auto auto;
     height: 100%;
     padding: 0 2rem;
+    z-index: 3;
 }
 .horizontal .box-info-app .box-center-info-app .info-app {
     grid-template-rows: 100%;

@@ -10,7 +10,7 @@ const Galery = ({alt, imgSmall, imgBig}) =>  {
                 <LazyLoadImage
                     alt={alt}
                     src={width < 1000 ? imgSmall : imgBig}
-                    style={{ width: "100%", height: "auto", objectFit: "contain" }}
+                    style={{ width: "100%", height: "auto", objectFit:'contain' }}
                     effect="blur"
                     wrapperProps={{
                         style: { transitionDelay: "0.5s" },

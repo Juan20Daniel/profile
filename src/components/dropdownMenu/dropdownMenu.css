@@ -8,6 +8,5 @@
     display: grid;
     justify-content: center;
     padding: 3rem 0 2rem;
-    border-bottom: 0.1rem solid var(--gray);
-    box-shadow: 0 0 0.5rem var(--box-shadow);
+    box-shadow: 0 0.5rem 0.5rem var(--box-shadow);
 }

@@ -1,7 +1,8 @@
 :root {
   --white: #ffffff;
   --black: #000000;
-  --black-active: #3f3f3f;
+  --black-active: #707070;
+  --light-gray: #c4c4c4;
   --box-shadow: #0000003f;
   --gray: #666666;
   --coffee: #CC9A48;

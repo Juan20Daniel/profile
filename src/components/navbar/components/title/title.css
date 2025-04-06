@@ -4,7 +4,12 @@
 .title-section span {
     font-weight: 300;
 }
-
+.color-title-white {
+    color: var(--white);
+}
+.color-title-black {
+    color: var(--black);
+}
 @media(min-width:700px) {
     .title-section {
         font-size: 2.5rem;
