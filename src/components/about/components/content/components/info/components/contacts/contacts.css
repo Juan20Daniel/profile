@@ -180,3 +180,36 @@
         width: 27rem;
     }
 }
+
+@media(min-width:1800px) and (min-height: 1000px) {
+    .horizontal .contacts .box-contact-title {
+        width: 35rem;
+        height: 6rem;
+        padding: 0 2rem 0 7rem;
+    }  
+    .horizontal .contacts .box-contact-title span {
+        font-size: 2.5rem;
+    } 
+    .horizontal .contacts .box-contact-title svg {
+        width: 3rem;
+        height: 3rem;
+    } 
+    .horizontal .box-btn-contacts {
+        width: 27.5rem;
+    }
+}
+
+@media(min-width:2100px) and (min-height: 1200px) {
+    /* .horizontal .contacts .box-contact-title {
+        width: 35rem;
+        height: 6rem;
+        padding: 0 2rem 0 7rem;
+    }  
+    .horizontal .contacts .box-contact-title span {
+        font-size: 2.5rem;
+    } 
+    .horizontal .contacts .box-contact-title svg {
+        width: 3rem;
+        height: 3rem;
+    } */
+}

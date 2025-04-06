@@ -136,3 +136,30 @@
         max-width: 60rem;
     }
 }
+
+@media(min-width:1800px) and (min-height: 1000px) {
+    .horizontal .about .about-title {
+        font-size: 7rem;
+    }
+    
+    .horizontal .about .description {
+        font-size: 2.5rem;
+        max-width: 70rem;
+    }
+}
+
+@media(min-width:2100px) and (min-height: 1200px) {
+    .horizontal .about {
+        margin: 0 0 6rem 6rem;
+    }
+    .horizontal .about {
+        padding-top: 11rem;
+    }
+    .horizontal .about .about-title {
+        font-size: 10rem;
+    }
+    .horizontal .about .description {
+        font-size: 3rem;
+        max-width: 80rem;
+    }
+}

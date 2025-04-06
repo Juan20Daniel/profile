@@ -3,8 +3,8 @@ import AppContext from '@context/apps/AppsContext';
 import BoxContentApp from "../boxContentApp/BoxContentApp";
 import Galery from "../galery/Galery";
 import InfoProyect from "../infoProyect/InfoProyect";
-import imgSmall from '@assets/proyects/proyect1/imgSmall.png';
-import imgBig from '@assets/proyects/proyect1/imgBig.png';
+import imgSmall from '@assets/proyects/proyect1/imgSmall.webp';
+import imgBig from '@assets/proyects/proyect1/imgBig.webp';
 import BtnChangeProyect from "../btnChangeProyect/BtnChangeProyect";
 
 const navigation = {

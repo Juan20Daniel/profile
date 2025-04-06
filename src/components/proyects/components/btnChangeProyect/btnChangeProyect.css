@@ -112,3 +112,14 @@
         height: 2.2rem;
     }
 }
+@media(min-width:2000px) and (min-height: 1300px) {
+    .btn-change-proyect {
+        font-size: 2rem;
+        width: 18rem;
+        height: 4.5rem;
+    }
+    .btn-change-proyect svg {
+        width: 3rem;
+        height: 3rem;
+    }
+}

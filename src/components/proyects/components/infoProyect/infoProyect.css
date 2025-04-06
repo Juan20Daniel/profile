@@ -94,7 +94,7 @@
     }
     .horizontal .info-proyect .proyect-description {
         font-size: 1.2rem;
-        max-width: 35rem;
+        max-width: 60rem;
     }
     .horizontal .info-proyect .box-buttons {
         padding-top: 1rem;
@@ -114,7 +114,7 @@
     }
     .horizontal .info-proyect .proyect-description {
         font-size: 1.5rem;
-        max-width: 40rem;
+        max-width: 70rem;
     }
     .horizontal .info-proyect .box-buttons {
         padding-top: 1rem;
@@ -152,7 +152,7 @@
     }
     .horizontal .info-proyect .proyect-description {
         font-size: 1.8rem;
-        max-width: 50rem;
+        max-width: 80rem;
     }
     .horizontal .info-proyect .box-buttons {
         padding-top: 2rem;
@@ -184,5 +184,21 @@
     .info-proyect .proyect-description {
         font-size: 1.4rem;
         max-width: 35rem;
+    }
+}
+
+@media(min-width:2000px) and (min-height: 1300px) {
+    .horizontal .info-proyect .proyect-title {
+        font-size: 8rem;
+    }
+    .horizontal .info-proyect .development-tools{
+        font-size: 5rem;
+    }
+    .horizontal .info-proyect .proyect-description {
+        font-size: 2.5rem;
+        max-width: 100rem;
+    }
+    .horizontal .info-proyect .box-buttons {
+        padding-top: 1rem;
     }
 }

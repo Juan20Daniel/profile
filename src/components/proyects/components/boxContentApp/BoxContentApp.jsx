@@ -16,7 +16,7 @@ const BoxContentApp = ({
 }) => {
     const { changeSection } = useContext(SectionContext);
     const { apps } = useContext(AppContext);
-    const { about, skills, experience} = navigation;
+    const { about, skills, experience } = navigation;
     
     return (
         <Section styles={`box-content ${apps[position].place}`}>

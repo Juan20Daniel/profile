@@ -115,4 +115,16 @@ header .nav-btns {
     .horizontal .box-specialty .languege {
         font-size: 3rem;
     }   
+    .align-vertical {
+        width: 22rem;
+    }
+}
+
+@media(min-width:2100px) and (min-height: 1200px) {
+    .horizontal .box-specialty .specialty {
+        font-size: 7rem;
+    }
+    .horizontal .box-specialty .languege {
+        font-size: 5rem;
+    }   
 }
