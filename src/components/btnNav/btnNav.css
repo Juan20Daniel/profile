@@ -26,6 +26,7 @@
 .active .btn-black {
     background-color: var(--black);
     color: var(--white);
+    box-shadow: 0 0 0.4rem rgb(0, 0, 0);
 }
 .active .btn-white {
     background-color: var(--white);

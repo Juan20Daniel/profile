@@ -1,9 +1,12 @@
 import Title from "./components/title/Title";
 import './navbar.css';
-const Navbar = ({title, children}) => {
+const Navbar = ({title, colorTitle, children}) => {
     return (
         <nav>
-            {title && <Title value={title} />}
+            {title && <Title 
+                value={title} 
+                colorTitle={colorTitle}
+            />}
             {children}
         </nav>
     )

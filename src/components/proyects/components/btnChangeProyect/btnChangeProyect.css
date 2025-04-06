@@ -64,13 +64,17 @@
 .btn-color-black {
     background-color: var(--black);
 }
-.btn-type-back.btn-color-black,
-.btn-color-black {
-    border: 0.1rem solid var(--black);
+.btn-type-back.btn-color-black {
+    color: var(--black);
+    background-color: var(--light-gray);
 }
+
+.btn-type-back.btn-color-black:active,
 .btn-color-black:active {
-    border: 0.1rem solid var(--black-active);
     background-color: var(--black-active);
+}
+.btn-type-back.btn-color-black svg path {
+    fill: var(--black);
 }
 
 .btn-type-back {

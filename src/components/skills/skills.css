@@ -1,0 +1,11 @@
+.section-skills {
+    background-color: var(--coffee);
+    box-shadow: 0 0 1.5rem 1.4rem #ebb7626e;
+}
+.section-skills nav {
+    display: flex;
+    justify-content: space-between;
+}
+.nav-btns-proyects {
+    display: none;
+}
