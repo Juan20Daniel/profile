@@ -1,6 +1,5 @@
-header .nav-btns {
-    display: flex;
-    justify-content: center;
+.nav-about {
+    justify-content: flex-end;
 }
 .align-vertical {
     position: absolute;
@@ -46,12 +45,50 @@ header .nav-btns {
 .horizontal .box-specialty .languege {
     font-size: 1.6rem;
 }
+.horizontal .as-disable-menu {
+    display: flex;
+}
+.horizontal .as-show-btns {
+    display: none;
+}
 @media(min-width:400px) {
     .box-specialty .specialty {
         font-size: 3rem;
     }
     .box-specialty .languege {
         font-size: 1.8rem;
+    }
+}
+
+@media(min-width: 600px) {
+    .nav-about {
+        justify-content: center;
+    }
+    .as-disable-menu {
+        display: none;
+    }
+    .as-show-btns {
+        display: flex;
+        justify-content: center;
+    }
+    .horizontal .nav-about {
+        justify-content: flex-end;
+    }
+    .horizontal .as-disable-menu {
+        display: block;
+    }
+    .horizontal .as-show-btns {
+        display: none;
+    }
+}
+
+@media(min-width: 1100px) {
+    .horizontal .as-disable-menu {
+        display: none;
+    }
+    .horizontal .as-show-btns {
+        display: flex;
+        justify-content: flex-end;
     }
 }
 @media(min-width:600px) {
