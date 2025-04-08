@@ -12,15 +12,14 @@
     cursor: pointer;
 }
 
-.btn-type-back.btn-color-blue,
-.btn-color-blue {
-    border: 0.1rem solid var(--blue);
-}
 .btn-color-blue {
     background-color: var(--blue);
 }
+.btn-type-back.btn-color-blue {
+    background-color: var(--blue-actie);
+}
+.btn-type-back.btn-color-blue:active,
 .btn-color-blue:active {
-    border: 0.1rem solid var(--blue-active);
     background-color: var(--blue-active);
 }
 .btn-type-back.btn-color-blue {
