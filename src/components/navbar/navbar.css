@@ -12,6 +12,9 @@ nav {
     height: 7rem;
     padding: 0 2.5rem;
 }
+.box-btn-menu {
+    display: block;
+}
 .nav-btns {
     display: none;
 }
@@ -21,10 +24,13 @@ nav {
         padding: 0 3rem;
     }
 }
-@media(min-height: 700px) {
-    .horizontal nav {
-        height: 9rem;
-        padding: 0 3rem;
+@media(min-width:750px) {
+    .box-btn-menu {
+        display: none;
+    }
+    .nav-btns {
+        display: flex;
+        gap: 2rem;
     }
 }
 @media(min-height: 1000px) {
@@ -37,5 +43,18 @@ nav {
     .horizontal nav {
         height: 10rem;
         padding: 0 4rem;
+    }
+    .horizontal .nav-btns {
+        gap: 4rem;
+    }
+}
+@media(min-width: 1300px) {
+    .horizontal .nav-btns {
+        gap: 8rem;
+    }
+}
+@media(min-width: 2000px) {
+    .horizontal .nav-btns {
+        gap: 10rem;
     }
 }

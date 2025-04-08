@@ -15,10 +15,6 @@
     width: 100%;
     height: 100%;
 }
-.btn-menu:active {
-    width: 2.2rem;
-    height: 2.2rem;
-}
 @media(min-width: 600px) {
     .btn-menu {
         width: 4rem;

@@ -10,7 +10,8 @@ const Navbar = ({
     title, 
     colorTitle, 
     customStylesBtnMenu,
-    colorBtnMenu='black', 
+    colorBtnMenu='black',
+    colorBtn='black',
     colorBtnActive='black',
     customStylesBoxBtns,
     navigation={about:[], proyects:[], skills:[], experience:[]}
@@ -32,14 +33,14 @@ const Navbar = ({
                 {actualSection !== 'experience' && 
                     <BtnNav
                         value='Experiencia'
-                        color={colorBtnActive}
+                        color={colorBtn}
                         action={() => changeSection(experience[0], experience[1])}
                     />  
                 }
                 {actualSection !== 'skills' &&
                     <BtnNav 
                         value='Habilidades'
-                        color={colorBtnActive}
+                        color={colorBtn}
                         action={() => changeSection(skills[0], skills[1])}
                     />  
                 }

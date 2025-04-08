@@ -8,7 +8,7 @@ const navigation = {
     experience:[0,3]
 }
 const Header = () => {
-    const { height } = useGetSizeWindow();
+    const { width, height } = useGetSizeWindow();
     const { orientation } = useGetOrientation();
 
     return (
@@ -18,10 +18,11 @@ const Header = () => {
                 actualSection='about' 
                 colorBtnMenu='white'
                 customStylesBtnMenu='as-disable-menu'
+                colorBtn='white'
                 colorBtnActive='white'
                 customStylesBoxBtns={`
                     as-show-btns
-                    ${(orientation === 'horizontal' && height >= 700) && 
+                    ${(orientation === 'horizontal' && height >= 700 && width <= 1599) && 
                         'align-vertical'}
                 `}
                 navigation={navigation}

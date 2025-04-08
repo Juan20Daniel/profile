@@ -25,9 +25,6 @@
 .horizontal .section-apps .box-content .section-apps nav {
     padding: 0.5rem 2rem 0rem 2rem;
 }
-.section-apps .box-content .nav-btns-proyects {
-    display: none;
-}
 .section-apps .box-content .box-info-app {
     position: relative;
     width: 100%;
@@ -138,16 +135,6 @@
 
 
 @media(min-width:700px) {
-    .section-apps .box-content .box-btn-menu {
-        display: none;
-    }
-    .section-apps .box-content .nav-btns-proyects {
-        display: flex;
-    }
-    .box-content .nav-btns-proyects .box-btn-nav {
-        width: 10rem;
-        height: 3rem;
-    }
     .box-content .nav-btns-proyects .box-btn-nav:last-child {
         margin-left: 1rem;
     }
@@ -158,11 +145,8 @@
         font-size: 0.8rem;
     }
 }
+
 @media(min-width:1000px) {
-    .box-content .nav-btns-proyects .box-btn-nav {
-        width: 13rem;
-        height: 3.5rem;
-    }
     .box-content .nav-btns-proyects .box-btn-nav:last-child {
         margin-left: 2rem;
     }
@@ -181,11 +165,11 @@
 /* Extra long */
 @media(min-width:1500px) {
 
-    .horizontal .box-content .nav-btns-proyects .box-btn-nav {
+    /* .horizontal .box-content .nav-btns-proyects .box-btn-nav {
         width: 17rem;
         height: 4rem;
 
-    }
+    } */
     .horizontal .box-content .nav-btns-proyects .box-btn-nav:last-child {
         margin-left: 3rem;
     }
@@ -211,10 +195,10 @@
 }
 
 @media(min-width:2200px) {
-    .horizontal .box-content .nav-btns-proyects .box-btn-nav {
+    /* .horizontal .box-content .nav-btns-proyects .box-btn-nav {
         width: 23rem;
         height: 5rem;
-    }
+    } */
     .horizontal .box-content .nav-btns-proyects .box-btn-nav:last-child {
         margin-left: 5rem;
     }
