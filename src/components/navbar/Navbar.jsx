@@ -1,65 +1,29 @@
-import { useContext } from "react";
 import BtnMenu from "../btnMenu/BtnMenu";
-import BtnNav from "../btnNav/BtnNav";
 import Title from "./components/title/Title";
 import './navbar.css';
-import SectionContext from "../../context/section/SectionContext";
 const Navbar = ({
     customStylesNav,
-    actualSection,
     title, 
-    colorTitle, 
+    colorTitle='black', 
     customStylesBtnMenu,
     colorBtnMenu='black',
-    colorBtn='black',
-    colorBtnActive='black',
     customStylesBoxBtns,
-    navigation={about:[], proyects:[], skills:[], experience:[]}
+    children
 }) => {
-    const { changeSection } = useContext(SectionContext);
-    const {about, proyects, skills, experience} = navigation;
     return (
         <nav className={`${customStylesNav}`}>
             {title && 
                 <Title 
                     value={title} 
                     colorTitle={colorTitle}
+                    colorBtnMenu='white'
                 />
             }
             <div className={`box-btn-menu ${customStylesBtnMenu}`}>
                 <BtnMenu color={colorBtnMenu} />
             </div>
             <div className={`nav-btns ${customStylesBoxBtns}`}>
-                {actualSection !== 'experience' && 
-                    <BtnNav
-                        value='Experiencia'
-                        color={colorBtn}
-                        action={() => changeSection(experience[0], experience[1])}
-                    />  
-                }
-                {actualSection !== 'skills' &&
-                    <BtnNav 
-                        value='Habilidades'
-                        color={colorBtn}
-                        action={() => changeSection(skills[0], skills[1])}
-                    />  
-                }
-                {actualSection !== 'proyects' && 
-                    <BtnNav 
-                        value='Mis proyectos'
-                        color={colorBtnActive}
-                        isActive={true}
-                        action={() => changeSection(proyects[0], proyects[1])}
-                    />     
-                }
-                {actualSection !== 'about' && 
-                    <BtnNav 
-                        value='Sobe mi'
-                        color={colorBtnActive}
-                        isActive={true}
-                        action={() => changeSection(about[0], about[1])}
-                    />     
-                }
+                {children}
             </div>
         </nav>
     )

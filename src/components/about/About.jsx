@@ -6,7 +6,6 @@ import Content from './components/content/Content';
 
 const About = () => {
     const { sections } = useContext(SectionContext);
-
     return (
         <Section state={sections[0].place}>
             <Font />

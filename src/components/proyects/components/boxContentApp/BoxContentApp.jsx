@@ -4,33 +4,40 @@ import SectionContext from "@context/section/SectionContext";
 import AppContext from "@context/apps/AppsContext";
 import figure from "@assets/proyects/figure.png";
 import Navbar from "../../../navbar/Navbar";
+import BtnNav from "../../../btnNav/BtnNav";
 import './boxContentApp.css';
-const navigation = {
-    about:[1,0],
-    skills:[1,2],
-    experience:[1,3]
-}
 const BoxContentApp = ({
     position, 
     colorCard='black', 
-    // navigation={about:[], skills:[],experience:[]},
     children
 }) => {
-    // const { changeSection } = useContext(SectionContext);
+    const { changeSection } = useContext(SectionContext);
     const { apps } = useContext(AppContext);
-    // const { about, skills, experience } = navigation;
     
     return (
         <Section styles={`box-content ${apps[position].place}`}>
             <Navbar
-                customStylesNav=''
-                actualSection='proyects'
                 title='Mis proyectos'
                 colorBtnMenu='black'
-                colorBtnActive={colorCard}
                 customStylesBoxBtns={'sp-btns-nav'}
-                navigation={navigation}
-            />
+            >
+                <BtnNav
+                    value='Experiencia'
+                    color='black'
+                    action={() => changeSection(1, 3)}
+                />  
+                <BtnNav
+                    value='Habilidades'
+                    color='black'
+                    action={() => changeSection(1, 2)}
+                />     
+                <BtnNav 
+                    value='Sobre mi'
+                    color={colorCard}
+                    isActive={true}
+                    action={() => changeSection(1, 0)}
+                />    
+            </Navbar>
             <div className={`box-info-app font-color-${colorCard}`}>
                 <div className="box-center-info-app">
                     <img className="figure-proyects" src={figure} alt="Figura" />
