@@ -66,6 +66,7 @@
     .as-show-btns {
         display: flex;
         justify-content: center;
+        gap: 1rem;
     }
     .horizontal .nav-about {
         justify-content: flex-end;

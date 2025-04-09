@@ -1,0 +1,23 @@
+.ilustration {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 200px;
+    height: 250px;
+    transform: rotate(0);
+}
+.horizontal .ilustration {
+    height: 200px;
+}
+.ilustration .figure {
+    width: 100%;
+    height: 100%;
+    border-radius: 0 0 3rem 0;
+}
+.ilustration svg {
+    position: absolute;
+    width: 110px;
+    height: auto;
+    bottom: 3rem;
+    right: 3rem;
+}
