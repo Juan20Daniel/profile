@@ -18,6 +18,7 @@
 .horizontal .section-skills .item-skill .value {
     font-size: 1.2rem;
 }
+
 @media(min-height:400px) {
     .horizontal .section-skills .item-skill .value {
         font-size: 1.7rem;
@@ -30,5 +31,25 @@
     }
     .section-skills .item-skill .value {
         font-size: 1.8rem;
+    }
+}
+
+@media(min-width: 700px) and (min-height:1000px) {
+    .section-skills .item-skill .point {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .section-skills .item-skill .value {
+        font-size: 2.5rem;
+    }
+}
+
+@media(min-width:1000px) and (min-height:600px){
+    .horizontal .section-skills .item-skill .point {
+        width: 1.2rem;
+        height: 1.2rem;
+    }
+    .horizontal .section-skills .item-skill .value {
+        font-size: 2.5rem;
     }
 }

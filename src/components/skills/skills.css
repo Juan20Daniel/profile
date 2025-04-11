@@ -19,7 +19,8 @@
     padding-left: 2rem;
 }
 .horizontal .section-skills .ss-box-content {
-    margin-top: 5.5rem;
+    margin-top: 4.5rem;
+    padding-left: 2rem;
 }
 .ss-box-content .box-list-skills {
     position: relative;
@@ -33,22 +34,65 @@
 }
 .horizontal .ss-box-content .box-list-skills {
     margin-top: 2rem;
-    height: 10.2rem;
+    height: 7.2rem;
     gap: 1rem;
 }
+
+@media(min-width:850px) and (min-height:330px) {
+    .horizontal .ss-box-content .box-list-skills {
+        height: 5rem;
+    }
+}
+
 @media(min-height:400px) {
     .horizontal .ss-box-content .box-list-skills {
         height: 13rem;
         column-gap: 2rem;
     }
 }
-@media(min-width:600px) {
+@media(min-width: 600px)  {
     .section-skills .ss-box-content {
         padding: 2rem 4rem;
     }
+    .horizontal .section-skills .ss-box-content {
+        padding-left: 4rem;
+    }
+}
+@media(min-height:400px) {
+    .horizontal .ss-box-content .box-list-skills {
+        height: 20rem;
+    }
 }
 @media(min-height:900px) {
-    .ss-box-content .box-list-skills {
+    .horizontal .ss-box-content .box-list-skills {
         margin-top: 4rem;
+    }
+}
+
+@media(min-width: 700px) and (min-height:1000px) {
+    .section-skills .ss-box-content {
+        padding: 7rem 4rem;
+    }
+}
+
+@media(min-width:1000px) and (min-height:650px){
+    .horizontal .section-skills .ss-box-content {
+        padding: 5rem 4rem;
+    }
+    .horizontal .ss-box-content .box-list-skills {
+        height: 27rem;
+    }
+}
+
+
+@media(min-width: 1000px) and (min-height:1300px) {
+    .ss-box-content .box-list-skills {
+        gap: 3rem;
+    }
+}
+@media(min-width: 1300px) and (min-height:1000px) {
+    .horizontal .ss-box-content .box-list-skills {
+        gap: 3rem;
+        height: 40rem;
     }
 }
