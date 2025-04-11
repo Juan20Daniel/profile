@@ -1,0 +1,38 @@
+.section-skills .description {
+    position: relative;
+    padding-top: 1rem;
+    width: 24rem;
+    color: var(--white);
+    font-weight: var(--font-light);
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    z-index: 1;
+}
+.horizontal .section-skills .description {
+    width: 30rem;
+}
+@media(min-height:370px) {
+    .section-skills .description {
+        font-size: 1.2rem;
+    }
+}
+
+@media(min-width:500px) {
+    .section-skills .description {
+        font-size: 1.5rem;
+        width: 35rem;
+    }
+}
+
+@media(min-width:800px) {
+    .horizontal .section-skills .description {
+        font-size: 1.5rem;
+        width: 40rem;
+    }
+}
+@media(min-height:900px) {
+    .section-skills .description {
+        font-size: 1.4rem;
+        width: 30rem;
+    }
+}

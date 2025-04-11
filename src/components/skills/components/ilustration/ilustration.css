@@ -5,8 +5,10 @@
     width: 200px;
     height: 250px;
     transform: rotate(0);
+    z-index: 1;
 }
 .horizontal .ilustration {
+    width: 250px;
     height: 200px;
 }
 .ilustration .figure {
@@ -20,4 +22,49 @@
     height: auto;
     bottom: 3rem;
     right: 3rem;
+}
+@media(min-height:370px) {
+    .horizontal .ilustration {
+        width: 290px;
+        height: 230px;
+    }
+    .horizontal .ilustration svg {
+        width: 130px;
+        bottom: 3.5rem;
+        right: 3.5rem;
+    }
+}
+@media(min-height:400px) {
+    .horizontal .ilustration {
+        width: 40rem;
+        height: 260px;
+    }
+    .horizontal .ilustration svg {
+        width: 150px;
+        right: 7rem;
+    }
+}
+@media(min-height:700px) {
+    .ilustration {
+        width: 85%;
+        height: 35rem;
+    }
+    .ilustration svg {
+        width: 140px;
+        bottom: 5rem;
+        right: 3.5rem;
+    }
+}
+@media(min-height:800px) {
+    .ilustration {
+        height: 35rem;
+    }
+    .ilustration svg {
+        width: 18rem;
+    }
+    .ilustration svg {
+        width: 15rem;
+        bottom: 6rem;
+        right: 4rem;
+    }
 }
