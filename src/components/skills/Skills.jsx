@@ -1,6 +1,9 @@
 import { useContext } from 'react';
 import SectionContext from '@context/section/SectionContext';
 import Section from '../section/Section';
+import Title from './components/title/Title';
+import Description from './components/description/Description';
+import ItemSkill from './components/itemSkill/ItemSkill';
 import BtnNav from '../btnNav/BtnNav';
 import Navbar from '../navbar/Navbar';
 import Ilustration from './components/ilustration/Ilustration';
@@ -33,10 +36,20 @@ const Skills = () => {
                     customStyles='ss-btn-nav-active'
                 />     
             </Navbar>
-            <div className='ss-box-content'>
-                <p>skills</p>
-            </div>
             <Ilustration />
+            <div className='ss-box-content'>
+                <Title />
+                <Description />
+                <ul className='box-list-skills'>
+                    <ItemSkill value='React.js' />
+                    <ItemSkill value='Node.js' />
+                    <ItemSkill value='Css & HTML' />
+                    <ItemSkill value='Mysql' />
+                    <ItemSkill value='Figma' />
+                    <ItemSkill value='Github' />
+                    <ItemSkill value='Firebase' />
+                </ul>
+            </div>
         </Section>
     );
 }
