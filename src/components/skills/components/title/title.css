@@ -2,3 +2,32 @@
     font-size: 4rem;
     color: var(--white);
 }
+
+@media(min-width: 700px) and (min-height:1000px) {
+    .ss-box-content .title {
+        font-size: 7rem;
+    }
+}
+
+@media(min-width:1000px) and (min-height:600px){
+    .horizontal .ss-box-content .title {
+        font-size: 7rem;
+    }
+}
+
+@media(min-width: 1000px) and (min-height:1300px) {
+    .ss-box-content .title {
+        font-size: 10rem;
+    }
+}
+@media(min-width: 1300px) and (min-height:1000px) {
+    .horizontal .ss-box-content .title {
+        font-size: 10rem;
+    }
+}
+
+@media(min-width: 1600px) {
+    .horizontal .ss-box-content .title {
+        font-size: 10rem;
+    }
+}

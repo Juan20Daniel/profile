@@ -18,18 +18,29 @@
 }
 .ilustration svg {
     position: absolute;
-    width: 110px;
+    width: 11rem;
     height: auto;
     bottom: 3rem;
     right: 3rem;
 }
-@media(min-height:370px) {
+@media(min-width:850px) and (min-height:330px) {
     .horizontal .ilustration {
-        width: 290px;
-        height: 230px;
+        width: 29rem;
+        height: 20rem;
     }
     .horizontal .ilustration svg {
-        width: 130px;
+        width: 10rem;
+        bottom: 3.5rem;
+        right: 5.5rem;
+    }
+}
+@media(min-height:370px) {
+    .horizontal .ilustration {
+        width: 29rem;
+        height: 23rem;
+    }
+    .horizontal .ilustration svg {
+        width: 13rem;
         bottom: 3.5rem;
         right: 3.5rem;
     }
@@ -37,11 +48,22 @@
 @media(min-height:400px) {
     .horizontal .ilustration {
         width: 40rem;
-        height: 260px;
+        height: 26rem;
     }
     .horizontal .ilustration svg {
-        width: 150px;
+        width: 15rem;
         right: 7rem;
+    }
+}
+@media(min-height: 600px) {
+    .horizontal .ilustration {
+        width: 55%;
+        height: 35rem;
+    }
+    .horizontal .ilustration svg {
+        width: 20rem;
+        bottom: 5rem;
+        right: 6rem;
     }
 }
 @media(min-height:700px) {
@@ -50,21 +72,63 @@
         height: 35rem;
     }
     .ilustration svg {
-        width: 140px;
+        width: 14rem;
         bottom: 5rem;
         right: 3.5rem;
     }
 }
+
 @media(min-height:800px) {
     .ilustration {
         height: 35rem;
     }
     .ilustration svg {
-        width: 18rem;
+        width: 14rem;
+        bottom: 6rem;
+        right: 3rem;
+    }
+}
+
+@media(min-width: 700px) and (min-height:1000px) {
+    .ilustration {
+        width: 85%;
+        height: 60%;
     }
     .ilustration svg {
-        width: 15rem;
-        bottom: 6rem;
-        right: 4rem;
+        width: 50%;
+        bottom: 5rem;
+        right: 5rem;
+    }
+}
+
+@media(min-width:1000px) and (min-height:650px){
+    .horizontal .ilustration {
+        width: 70%;
+        height: 70%;
+    }
+    .horizontal .ilustration svg {
+        width: 50%;
+        max-width: 40.7rem;
+        bottom: 5rem;
+        right: 5rem;
+    }
+}
+
+@media(min-width: 800px) and (min-height:1100px) {
+    .ilustration svg {
+        bottom: 10rem;
+        right: 6rem;
+    }
+}
+@media(min-width: 1100px) and (min-height:800px) {
+    .horizontal .ilustration {
+        width: 70%;
+        height: 80%;
+    }
+}
+@media(min-width: 1600px) {
+    .horizontal .ilustration svg {
+        bottom: 5rem;
+        right: 15rem;
     }
 }

@@ -36,3 +36,38 @@
         width: 30rem;
     }
 }
+
+@media(min-width: 700px) and (min-height:1000px) {
+    .section-skills .description {
+        font-size: 1.8rem;
+        width: 45rem;
+    }
+}
+
+@media(min-width:1000px) and (min-height:600px){
+    .horizontal .section-skills .description {
+        font-size: 2rem;
+        width: 50rem;
+    }
+}
+
+
+@media(min-width: 1000px) and (min-height:1300px) {
+    .section-skills .description {
+        font-size: 2.5rem;
+        width: 50rem;
+    }
+}
+@media(min-width: 1300px) and (min-height:1000px) {
+    .horizontal .section-skills .description {
+        font-size: 2.5rem;
+        width: 55rem;
+    }
+}
+
+@media(min-width: 1600px) {
+    .horizontal .section-skills .description {
+        font-size: 2.5rem;
+        width: 60rem;
+    }
+}

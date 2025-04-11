@@ -54,7 +54,7 @@
     padding-top: 0.5rem;
 }
 
-@media(min-width:700px) and (min-height: 350px) {
+@media(min-width:700px) and (min-height: 330px) {
     .horizontal .info-proyect .proyect-title {
         font-size: 3rem;
     }

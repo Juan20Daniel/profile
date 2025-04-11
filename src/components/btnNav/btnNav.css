@@ -65,6 +65,35 @@
 .active .btn-orange:active {
     background-color: var(--orange-active);
 }
+
+@media(min-width:700px) and (min-height:330px) {
+    .box-btn-nav .btn-nav {
+        font-size: 1rem;
+    }
+    .active .btn-black,
+    .active .btn-white,
+    .active .btn-blue,
+    .active .btn-green,
+    .active .btn-orange {
+        width: 11rem;
+        height: 2.5rem;
+    }
+}
+
+@media(min-width:1000px) and (min-height:530px) {
+    .box-btn-nav .btn-nav {
+        font-size: 1.5rem;
+    }
+    .active .btn-black,
+    .active .btn-white,
+    .active .btn-blue,
+    .active .btn-green,
+    .active .btn-orange {
+        width: 15rem;
+        height: 3.5rem;
+    }
+}
+
 @media(min-height: 1000px) and (min-width: 1000px) {
     .box-btn-nav .btn-nav {
         font-size: 1.8rem;
