@@ -2,9 +2,6 @@
     justify-content: flex-end;
 }
 .align-vertical {
-    position: absolute;
-    top: 4rem;
-    right: 4rem;
     flex-direction: column-reverse;
     align-items: center;
     width: 20rem;

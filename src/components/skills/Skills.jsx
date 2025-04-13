@@ -1,12 +1,12 @@
 import { useContext } from 'react';
 import SectionContext from '@context/section/SectionContext';
 import Section from '../section/Section';
-import Title from './components/title/Title';
-import Description from './components/description/Description';
-import ItemSkill from './components/itemSkill/ItemSkill';
 import BtnNav from '../btnNav/BtnNav';
 import Navbar from '../navbar/Navbar';
 import Ilustration from './components/ilustration/Ilustration';
+import Title from './components/title/Title';
+import Description from './components/description/Description';
+import ItemSkill from './components/itemSkill/ItemSkill';
 import './skills.css';
 
 const Skills = () => {

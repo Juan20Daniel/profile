@@ -4,9 +4,12 @@ nav {
     left: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    border-radius: 3rem 3rem 0 0;
     width: 100%;
     height: auto;
     padding: 1.5rem 2rem 0rem 2rem;
+    z-index: 1;
 }
 .horizontal nav {
     padding: 0.5rem 2rem 0rem 2rem;
@@ -19,7 +22,7 @@ nav {
     display: none;
 }
 
-@media(min-width:850px) and (min-height:330px) {
+/* @media(min-width:850px) and (min-height:330px) {
     .horizontal nav {
         padding: 1.5rem 2rem 0rem 2rem;
     }
@@ -29,24 +32,8 @@ nav {
     .horizontal nav {
         padding: 1.5rem 2rem 0rem 2rem;
     }
-}
-@media(min-height: 700px) {
-    .horizontal nav {
-        height: 8rem;
-        padding: 0 3rem;
-    }
-}
-@media(min-height:500px) {
-    .horizontal nav {
-        padding: 2rem 2rem 0rem 2rem;
-    }
-}
+} */
 
-@media (min-width:600px) {
-    nav {
-        padding: 2rem 4rem 0rem 4rem;
-    }
-}
 @media(min-width:750px) {
     .box-btn-menu {
         display: none;
@@ -61,34 +48,13 @@ nav {
         gap: 2rem;
     }
 }
-@media(min-height:900px) {
-    .horizontal nav {
-        padding: 2rem 6rem 0rem 6rem;
-    }
-}
-
-@media(min-height: 1000px) {
-    nav {
-        height: 8rem;
-        padding: 0 4rem;
-    }
-}
 
 @media(min-width:700px) {
-
-/*     
-    .box-content .nav-btns-proyects .box-btn-nav:last-child {
-        margin-left: 1rem;
-    } */
     nav .btn-nav {
         font-size: 1rem;
     }
 }
 @media(min-width: 1000px) {
-    .horizontal nav {
-        height: 10rem;
-        padding: 0 4rem;
-    }
     .horizontal .nav-btns {
         gap: 4rem;
     }

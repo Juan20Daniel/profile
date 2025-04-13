@@ -2,15 +2,6 @@
     background-color: var(--coffee);
     box-shadow: 0 0 1.5rem 0.5rem #ebb762bb;
 }
-.section-skills nav {
-    justify-content: space-between;
-    background: rgba(201, 162, 162, 0);
-    border-radius: 3rem 3rem 0 0;
-    z-index: 1;
-}
-.nav-btns-proyects {
-    display: none;
-}
 .active .ss-btn-nav-active {
     box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.76);
 }
@@ -58,11 +49,11 @@
         padding-left: 4rem;
     }
 }
-@media(min-height:400px) {
+/* @media(min-height:400px) {
     .horizontal .ss-box-content .box-list-skills {
         height: 20rem;
     }
-}
+} */
 @media(min-height:900px) {
     .horizontal .ss-box-content .box-list-skills {
         margin-top: 4rem;
@@ -72,6 +63,11 @@
 @media(min-width: 700px) and (min-height:1000px) {
     .section-skills .ss-box-content {
         padding: 7rem 4rem;
+    }
+}
+@media(min-width:1000px) and (min-height:600px){
+    .horizontal .ss-box-content .box-list-skills {
+        height: 20rem;
     }
 }
 

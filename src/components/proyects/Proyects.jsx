@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import SectionContext from '@context/section/SectionContext';
-import AppsProvider from '../../context/apps/AppsProvider';
+import AppsProvider from '@context/apps/AppsProvider';
 import Section from '../section/Section';
 import Nutrideli from './components/nutrideli/Nutrideli';
 import ChatZone from './components/chatZone/ChatZone';
