@@ -4,13 +4,13 @@ import DropdownMenuContext from '@context/dropdownMenu/DropdownMenuContext';
 import './btnMenu.css';
 
 const BtnMenu = ({color='black'}) => {
-    const { openMenu } = useContext(DropdownMenuContext);
+    const { open } = useContext(DropdownMenuContext);
     return (
         <button 
             type='button'
             className="btn-menu"
             title='Menu'
-            onClick={() => openMenu()}
+            onClick={() => open()}
         >
             <IconMenu color={color} />
         </button>

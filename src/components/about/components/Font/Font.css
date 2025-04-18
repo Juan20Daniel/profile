@@ -3,7 +3,7 @@
     background-size: cover;
     width: 100%;
     height: 50%;
-    border-radius: 3rem 3rem 0 0;
+    border-radius: var(--radius-phone) var(--radius-phone) 0 0;
 }
 .horizontal section .img-font {
     position: absolute;
@@ -11,7 +11,7 @@
     right: 0;
     width: 70%;
     height: 100%;
-    border-radius: 0 3rem 3rem 0;
+    border-radius: 0 var(--radius-phone) var(--radius-phone) 0;
 }
 .horizontal section .font-left {
     position: absolute;
@@ -31,28 +31,5 @@
 @media(min-width: 420px) {
     .img-font {
         background-image: url('../../../../assets//header/font-table.jpg');
-    }
-}
-
-@media(min-width: 800px) and (min-height: 440px) {
-    .img-font {
-        border-radius: 4rem 4rem 0 0;
-    }
-    .horizontal section .img-font {
-        border-radius: 0 4rem 4rem 0;
-    }
-    .horizontal section .font-left {
-        border-radius: 4rem 0 0 4rem;
-    }
-}
-@media(min-width: 440px) and (min-height: 800px) {
-    .img-font {
-        border-radius: 4rem 4rem 0 0;
-    }
-    .horizontal section .img-font {
-        border-radius: 0 4rem 4rem 0;
-    }
-    .horizontal section .font-left {
-        border-radius: 4rem 0 0 4rem;
     }
 }

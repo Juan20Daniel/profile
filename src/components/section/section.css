@@ -3,7 +3,7 @@ section {
     background: var(--white);
     width: 80%;
     height: 80%;
-    border-radius: 3rem;
+    border-radius: var(--radius-phone);
     box-shadow: 0 0 2.1rem 1.4rem rgba(0, 0, 0, 0.055);
     background-color: var(--dark-overlay);
     transform-style: preserve-3d;
@@ -22,14 +22,4 @@ section {
 }
 .bottom {
     transform: translateY(100%) rotateX(-100deg);
-}
-@media(min-width: 800px) and (min-height: 440px) {
-    section {
-        border-radius: 4rem;
-    }
-}
-@media(min-width:440px) and (min-height:800px) {
-    section {
-        border-radius: 4rem;
-    }
 }

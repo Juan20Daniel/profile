@@ -1,5 +1,5 @@
 export const IconMenu = ({ color }) => (
-    <svg viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M4.5 6.75H22.5V9H4.5V6.75ZM4.5 12.375H22.5V14.625H4.5V12.375ZM4.5 18H22.5V20.25H4.5V18Z" fill={color}/>
+    <svg viewBox="0 0 19 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0.5 0.75H18.5V3H0.5V0.75ZM0.5 6.375H18.5V8.625H0.5V6.375ZM0.5 12H18.5V14.25H0.5V12Z" fill={color}/>
     </svg>
 );

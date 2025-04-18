@@ -1,0 +1,96 @@
+.section-experience {
+    background-image: linear-gradient(40deg, rgb(211, 211, 211) 0%, #878787 100%);
+    box-shadow: 0 0 1.5rem 0.5rem #b6b6b6bb;
+}
+.active .se-btn-nav-active {
+    box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.76);
+}
+.section-experience .se-box-content {
+    margin-top: 4.2rem;
+}
+.horizontal .section-experience .se-box-content {
+    margin-top: 3.5rem;
+    padding-left: 2rem;
+    height: calc(100% - 3.5rem);
+    display: flex;
+}
+.section-experience .se-box-content .box-ilustration {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.section-experience .se-box-content .box-ilustration svg {
+    width: 50%;
+}
+.horizontal .section-experience .se-box-content .box-ilustration {
+    width: 35%;
+    height: 100%;
+    align-items: center;
+    justify-content: flex-start;
+}
+.horizontal .section-experience .se-box-content .box-ilustration svg {
+    width: 90%;
+}
+.section-experience .se-box-content .list-company {
+    margin-top: 1rem;
+    height: auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.horizontal .section-experience .se-box-content .list-company {
+    width: calc(100% - 35%);
+    margin-top: 0;
+    justify-content: center;
+    align-items: flex-start;
+}
+@media(min-width: 600px) and (min-height:350px) {
+    .horizontal .section-experience .se-box-content .list-company {
+        gap: 2rem;
+    }
+}
+
+@media(min-width:800px) and (min-height:600px) {
+    .horizontal .section-experience .se-box-content {
+        padding: 5rem 4rem;
+    }
+    .horizontal .section-experience .se-box-content .box-ilustration svg {
+        width: 100%;
+    }
+    .horizontal .section-experience .se-box-content .list-company {
+        gap: 4rem;
+    }
+}
+@media(min-height:600px) {
+    .section-experience .se-box-content {
+        margin-top: 6rem;
+    }
+    .section-experience .se-box-content .list-company {
+        margin-top: 3rem;
+    }
+}
+@media(min-height:800px) {
+    .section-experience .se-box-content {
+        margin-top: 10rem;
+    }
+}
+@media(min-width:1000px) and (min-height: 900px) {
+    .horizontal .section-experience .se-box-content {
+        padding: 5rem 6rem;
+    }
+    .horizontal .section-experience .se-box-content .box-ilustration svg {
+        width: 100%;
+    }
+}
+
+@media (min-height:1000px) {
+    .section-experience .se-box-content .box-ilustration svg {
+        width: 50%;
+    }
+}
+@media(min-width: 1600px) { 
+    .horizontal .section-experience .se-box-content .list-company {
+        gap: 5rem;
+    }
+}

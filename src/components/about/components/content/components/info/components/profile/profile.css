@@ -77,7 +77,6 @@
 }
 
 @media(min-height: 700px) {
-
     .horizontal .profile .box-logo {
         width: 21rem;
     }
@@ -169,3 +168,8 @@
         height: 14rem;
     }
 }
+
+/*
+min-height: 600px margin 4rem; 
+min-heigth: 900px margin
+*/

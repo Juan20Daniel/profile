@@ -4,12 +4,11 @@
     left: 0;
     width: 100%;
     height: 100%;
-    border: 3rem;
     display: grid;
     grid-template-rows: 41% 1fr;
 }
 
-.horizontal section .header-content {
+.horizontal .header-content {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100%;
 }

@@ -23,6 +23,8 @@
   --font-regular: 400;
   --font-bold: 600;
   --font-family: "Raleway", serif;
+  --radius-phone: 3rem;
+  --radius-table: 4rem;
 }
 
 * {

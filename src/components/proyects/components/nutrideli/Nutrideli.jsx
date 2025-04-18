@@ -2,7 +2,7 @@ import { useContext } from "react";
 import AppContext from '@context/apps/AppsContext';
 import BoxContentApp from "../boxContentApp/BoxContentApp";
 import Galery from "../galery/Galery";
-import InfoProyect from "../infoProyect/InfoProyect";
+import DetailsProyect from "../detailsProyect/DetailsProyect";
 import imgSmall from '@assets/proyects/proyect1/imgSmall.webp';
 import imgBig from '@assets/proyects/proyect1/imgBig.webp';
 import BtnChangeProyect from "../btnChangeProyect/BtnChangeProyect";
@@ -25,10 +25,10 @@ const Nutrideli = () =>  {
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />
-            <InfoProyect 
+            <DetailsProyect 
                 title='Guia medica'
                 developmentTools='Node, React native, Mysql'
-                description='Diseñada y creada con el proposito de dar publicidad a los consultorios de medicina.'
+                description='Diseñada y creada con el propósito de brindar gran cantidad de publicidad a los consultorios de medicina.'
                 color='blue'
             >
                 <BtnChangeProyect
@@ -37,7 +37,7 @@ const Nutrideli = () =>  {
                     btnColor='blue'
                     action={() => changeApp(0, 'left')}
                 />
-            </InfoProyect> 
+            </DetailsProyect> 
         </BoxContentApp>
     )
 }

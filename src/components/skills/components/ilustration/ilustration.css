@@ -1,4 +1,4 @@
-.ilustration {
+.section-skills .ilustration {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -7,16 +7,16 @@
     transform: rotate(0);
     z-index: 1;
 }
-.horizontal .ilustration {
+.horizontal .section-skills .ilustration {
     width: 250px;
     height: 200px;
 }
-.ilustration .figure {
+.section-skills .ilustration .figure {
     width: 100%;
     height: 100%;
     border-radius: 0 0 3rem 0;
 }
-.ilustration svg {
+.section-skills .ilustration svg {
     position: absolute;
     width: 11rem;
     height: auto;
@@ -24,54 +24,54 @@
     right: 3rem;
 }
 @media(min-width:850px) and (min-height:330px) {
-    .horizontal .ilustration {
+    .horizontal .section-skills .ilustration {
         width: 29rem;
         height: 20rem;
     }
-    .horizontal .ilustration svg {
+    .horizontal .section-skills .ilustration svg {
         width: 10rem;
         bottom: 3.5rem;
         right: 5.5rem;
     }
 }
 @media(min-height:370px) {
-    .horizontal .ilustration {
+    .horizontal .section-skills .ilustration {
         width: 29rem;
         height: 23rem;
     }
-    .horizontal .ilustration svg {
+    .horizontal .section-skills .ilustration svg {
         width: 13rem;
         bottom: 3.5rem;
         right: 3.5rem;
     }
 }
 @media(min-height:400px) {
-    .horizontal .ilustration {
+    .horizontal .section-skills .ilustration {
         width: 40rem;
         height: 26rem;
     }
-    .horizontal .ilustration svg {
+    .horizontal .section-skills .ilustration svg {
         width: 15rem;
         right: 7rem;
     }
 }
 @media(min-height: 600px) {
-    .horizontal .ilustration {
+    .horizontal .section-skills .ilustration {
         width: 55%;
         height: 35rem;
     }
-    .horizontal .ilustration svg {
+    .horizontal .section-skills .ilustration svg {
         width: 20rem;
         bottom: 5rem;
         right: 6rem;
     }
 }
 @media(min-height:700px) {
-    .ilustration {
+    .section-skills .ilustration {
         width: 85%;
         height: 35rem;
     }
-    .ilustration svg {
+    .section-skills .ilustration svg {
         width: 14rem;
         bottom: 5rem;
         right: 3.5rem;
@@ -79,10 +79,10 @@
 }
 
 @media(min-height:800px) {
-    .ilustration {
+    .section-skills .ilustration {
         height: 35rem;
     }
-    .ilustration svg {
+    .section-skills .ilustration svg {
         width: 14rem;
         bottom: 6rem;
         right: 3rem;
@@ -90,11 +90,11 @@
 }
 
 @media(min-width: 700px) and (min-height:1000px) {
-    .ilustration {
+    .section-skills .ilustration {
         width: 85%;
         height: 60%;
     }
-    .ilustration svg {
+    .section-skills .ilustration svg {
         width: 50%;
         bottom: 5rem;
         right: 5rem;
@@ -102,11 +102,11 @@
 }
 
 @media(min-width:1000px) and (min-height:650px){
-    .horizontal .ilustration {
+    .horizontal .section-skills .ilustration {
         width: 70%;
         height: 70%;
     }
-    .horizontal .ilustration svg {
+    .horizontal .section-skills .ilustration svg {
         width: 50%;
         max-width: 40.7rem;
         bottom: 5rem;
@@ -115,19 +115,19 @@
 }
 
 @media(min-width: 800px) and (min-height:1100px) {
-    .ilustration svg {
+    .section-skills .ilustration svg {
         bottom: 10rem;
         right: 6rem;
     }
 }
 @media(min-width: 1100px) and (min-height:800px) {
-    .horizontal .ilustration {
+    .horizontal .section-skills .ilustration {
         width: 70%;
         height: 80%;
     }
 }
 @media(min-width: 1600px) {
-    .horizontal .ilustration svg {
+    .horizontal .section-skills .ilustration svg {
         bottom: 5rem;
         right: 15rem;
     }

@@ -1,23 +1,13 @@
-.nav-about {
+header .nav-about {
     justify-content: flex-end;
 }
-.align-vertical {
-    position: absolute;
-    top: 4rem;
-    right: 4rem;
-    flex-direction: column-reverse;
-    align-items: center;
-    width: 20rem;
-}
-
-.horizontal .as-disable-menu {
+.horizontal header .nav-about .as-disable-menu {
     display: flex;
 }
-.horizontal .as-show-btns {
-    gap: 1rem;
+.horizontal header .nav-about .as-show-btns {
     display: none;
 }
-.box-specialty {
+header .box-specialty {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,153 +16,153 @@
     height: 100%;
     gap: 0.5rem;
 }
-.box-specialty .specialty,
-.box-specialty .languege {
+
+header .box-specialty .specialty,
+header .box-specialty .languege {
     font-weight: 300;
 } 
-.box-specialty .specialty {
+header .box-specialty .specialty {
     font-size: 2rem;
 }
-.horizontal .box-specialty .specialty {
+.horizontal header .box-specialty .specialty {
     font-size: 2rem;
 }
-.box-specialty .languege {
+header .box-specialty .languege {
     font-size: 1.3rem;
 }
-.horizontal .box-specialty .languege {
+.horizontal header .box-specialty .languege {
     font-size: 1.6rem;
 }
 
 @media(min-width:400px) {
-    .box-specialty .specialty {
+    header .box-specialty .specialty {
         font-size: 3rem;
     }
-    .box-specialty .languege {
+    header .box-specialty .languege {
         font-size: 1.8rem;
     }
 }
-@media(min-height: 500px) {
-    .horizontal nav .align-vertical {
-      gap: 2rem;
-    }
-}
+
 @media(min-width: 600px) {
-    .nav-about {
-        justify-content: center;
-    }
-    .as-disable-menu {
-        display: none;
-    }
-    .as-show-btns {
-        display: flex;
-        justify-content: center;
-        gap: 1rem;
-    }
-    .horizontal .nav-about {
-        justify-content: flex-end;
-    }
-    .horizontal .as-disable-menu {
-        display: block;
-    }
-    .horizontal .as-show-btns {
-        display: none;
-    }
-}
-@media(min-width:750px) {
-    nav .as-show-btns {
-        gap: 5rem;
-    }
-}
-@media(min-width: 1100px) {
-    .horizontal .as-disable-menu {
-        display: none;
-    }
-    .horizontal .as-show-btns {
-        display: flex;
-        justify-content: flex-end;
-    }
-}
-@media(min-width:600px) {
-    .box-specialty .specialty {
+    header .box-specialty .specialty {
         font-size: 4rem;
     }
-    .box-specialty .languege {
+
+    header .nav-about {
+        justify-content: center;
+    }
+    .horizontal header .nav-about {
+        justify-content: flex-end;
+    }
+    header .nav-about .as-disable-menu {
+        display: none;
+    }
+    header .nav-about .as-show-btns {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    header .box-specialty .languege {
         font-size: 2.5rem;
     }
-    .horizontal .box-specialty .specialty {
+    .horizontal header .box-specialty .specialty {
         font-size: 2rem;
     }
-    .horizontal .box-specialty .languege {
+    .horizontal header .box-specialty .languege {
         font-size: 1.7rem;
     }
 }
 
 @media(min-width:800px) {
-    .horizontal .box-specialty .specialty {
+    .horizontal header .box-specialty .specialty {
         font-size: 2.5rem;
     }
-    .horizontal .box-specialty .languege {
+    .horizontal header .box-specialty .languege {
         font-size: 1.8rem;
     }
 }
 
+@media(min-width: 850px)  {
+    .horizontal header .nav-about {
+        justify-content: flex-end;
+    }
+    .horizontal header .nav-about .as-disable-menu {
+        display: none;
+    }
+    .horizontal header .nav-about .as-show-btns {
+        display: flex;
+    }
+}
+
+@media(min-width: 850px) and (min-height: 600px) {
+    .horizontal header .nav-about .align-vertical {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 15rem;
+        gap: 2rem;
+    }
+}
+
+@media(min-width:700px) {
+    header .nav-about .as-show-btns {
+        gap: 3rem;
+    }
+}
+@media(min-width:800px) {
+    header .nav-about .as-show-btns {
+        gap: 4rem;
+    }
+}
 @media(min-width:1000px) {
-    .box-specialty .specialty {
+    header .box-specialty .specialty {
         font-size: 6rem;
     }
-    .box-specialty .languege {
+    header .box-specialty .languege {
         font-size: 3.5rem;
     }   
 }
 
 @media(min-width:1200px) {
-    .horizontal .box-specialty .specialty {
+    .horizontal header .box-specialty .specialty {
         font-size: 3rem;
     }
-    .horizontal .box-specialty .languege {
+    .horizontal header .box-specialty .languege {
         font-size: 2rem;
     }   
 }
-@media(min-width: 1100px) {
-    header .nav-btns {
-        justify-content: flex-end;
-    }
-}
 @media(min-width:1400px) {
-    .horizontal .box-specialty .specialty {
+    .horizontal header .box-specialty .specialty {
         font-size: 4rem;
     }
-    .horizontal .box-specialty .languege {
+    .horizontal header .box-specialty .languege {
         font-size: 2.5rem;
     }   
 }
-@media(min-width:1600px) {
-    .horizontal .as-show-btns {
+@media(min-width:1700px) {
+    .horizontal header .nav-about .align-vertical {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
         gap: 2rem;
     }
-    .horizontal .box-specialty .specialty {
+    .horizontal header .box-specialty .specialty {
         font-size: 5rem;
     }
-    .horizontal .box-specialty .languege {
+    .horizontal header .box-specialty .languege {
         font-size: 3rem;
     }   
-    .align-vertical {
+    header .align-vertical {
         width: 22rem;
     }
 }
-@media(min-width:1800px) {
-    .horizontal .as-show-btns {
-        gap: 4rem;
-    }
-}
+
 @media(min-width:2100px) and (min-height: 1200px) {
-    .horizontal .as-show-btns {
-        gap: 5rem;
-    }
-    .horizontal .box-specialty .specialty {
+    .horizontal header .box-specialty .specialty {
         font-size: 7rem;
     }
-    .horizontal .box-specialty .languege {
+    .horizontal header .box-specialty .languege {
         font-size: 5rem;
     }   
 }

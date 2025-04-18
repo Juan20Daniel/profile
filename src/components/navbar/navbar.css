@@ -4,12 +4,12 @@ nav {
     left: 0;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    border-radius: var(--radius-phone) var(--radius-phone) 0 0;
     width: 100%;
     height: auto;
     padding: 1.5rem 2rem 0rem 2rem;
-}
-.horizontal nav {
-    padding: 0.5rem 2rem 0rem 2rem;
+    z-index: 1;
 }
 
 .box-btn-menu {
@@ -19,34 +19,24 @@ nav {
     display: none;
 }
 
-@media(min-width:850px) and (min-height:330px) {
-    .horizontal nav {
-        padding: 1.5rem 2rem 0rem 2rem;
-    }
-}
-
-@media(min-height:350px) {
-    .horizontal nav {
-        padding: 1.5rem 2rem 0rem 2rem;
-    }
-}
-@media(min-height: 700px) {
-    .horizontal nav {
-        height: 8rem;
-        padding: 0 3rem;
-    }
-}
-@media(min-height:500px) {
-    .horizontal nav {
-        padding: 2rem 2rem 0rem 2rem;
-    }
-}
-
-@media (min-width:600px) {
+@media(min-width:600px) and (min-height: 800px) {
     nav {
-        padding: 2rem 4rem 0rem 4rem;
+        padding: 3rem 4rem 0rem 4rem;
+    }   
+}
+
+@media(min-width:800px) and (min-height: 600px) {
+    .horizontal nav {
+        padding: 3rem 4rem 0rem 4rem;
+    }   
+}
+
+@media(min-width:700px) {
+    nav .btn-nav {
+        font-size: 1rem;
     }
 }
+
 @media(min-width:750px) {
     .box-btn-menu {
         display: none;
@@ -61,46 +51,27 @@ nav {
         gap: 2rem;
     }
 }
-@media(min-height:900px) {
+
+@media(min-width:1000px) and (min-height: 900px) {
     .horizontal nav {
-        padding: 2rem 6rem 0rem 6rem;
-    }
+        padding: 3.5rem 6rem 0rem 6rem;
+    }   
 }
 
-@media(min-height: 1000px) {
-    nav {
-        height: 8rem;
-        padding: 0 4rem;
-    }
-}
 
-@media(min-width:700px) {
-
-/*     
-    .box-content .nav-btns-proyects .box-btn-nav:last-child {
-        margin-left: 1rem;
-    } */
-    nav .btn-nav {
-        font-size: 1rem;
-    }
-}
 @media(min-width: 1000px) {
-    .horizontal nav {
-        height: 10rem;
-        padding: 0 4rem;
-    }
     .horizontal .nav-btns {
         gap: 4rem;
     }
 }
 @media(min-width: 1300px) {
     .horizontal .nav-btns {
-        gap: 8rem;
+        gap: 6rem;
     }
 }
 @media(min-width: 2000px) {
     .horizontal .nav-btns {
-        gap: 10rem;
+        gap: 8rem;
     }
 }
 
