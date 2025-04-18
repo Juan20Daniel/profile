@@ -1,0 +1,124 @@
+.btn-change-proyect {
+    color: var(--white);
+    font-size: 1rem;
+    border-radius: 2rem;
+    width: 9rem;
+    height: 2.1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.btn-color-blue {
+    background-color: var(--blue);
+}
+.btn-type-back.btn-color-blue {
+    background-color: var(--blue-actie);
+}
+.btn-type-back.btn-color-blue:active,
+.btn-color-blue:active {
+    background-color: var(--blue-active);
+}
+.btn-type-back.btn-color-blue {
+    color: var(--blue);
+}
+.btn-type-back.btn-color-blue svg path {
+    fill: var(--blue);
+}
+
+
+.btn-color-green {
+    background-color: var(--green);
+}
+.btn-type-back.btn-color-green:active,
+.btn-color-green:active {
+    background-color: var(--green-active);
+}
+.btn-type-back.btn-color-green {
+    color: var(--green);
+    background: var(--soft-sage);
+}
+.btn-type-back.btn-color-green svg path {
+    fill: var(--green);
+}
+
+.btn-color-orange {
+    background-color: var(--orange);
+}
+.btn-type-back.btn-color-orange:active,
+.btn-color-orange:active {
+    background-color: var(--orange-active);
+}
+.btn-type-back.btn-color-orange {
+    color: var(--orange);
+    background: var(--coral-haze);
+}
+.btn-type-back.btn-color-orange svg path {
+    fill: var(--orange);
+}
+
+.btn-color-black {
+    background-color: var(--black);
+}
+.btn-type-back.btn-color-black {
+    color: var(--black);
+    background-color: var(--light-gray);
+}
+
+.btn-type-back.btn-color-black:active,
+.btn-color-black:active {
+    background-color: var(--black-active);
+}
+.btn-type-back.btn-color-black svg path {
+    fill: var(--black);
+}
+
+.btn-type-back {
+    background: none;
+    flex-direction: row-reverse; 
+}
+.btn-change-proyect svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+.btn-type-back svg {
+    transform: rotateY(-180deg);
+}
+
+@media(min-height: 900px) {
+    .btn-change-proyect {
+        font-size: 1.2rem;
+        width: 12rem;
+        height: 3rem;
+        padding: 0 1.5rem;
+    }
+    .btn-change-proyect svg {
+        width: 2rem;
+        height: 2rem;
+    }
+}
+@media(min-height: 1100px) {
+    .btn-change-proyect {
+        font-size: 1.3rem;
+        width: 13rem;
+        height: 3.5rem;
+    }
+    .btn-change-proyect svg {
+        width: 2.2rem;
+        height: 2.2rem;
+    }
+}
+@media(min-width:2000px) and (min-height: 1300px) {
+    .btn-change-proyect {
+        font-size: 2rem;
+        width: 18rem;
+        height: 4.5rem;
+    }
+    .btn-change-proyect svg {
+        width: 3rem;
+        height: 3rem;
+    }
+}

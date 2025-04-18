@@ -1,0 +1,25 @@
+section {
+    position: absolute;
+    background: var(--white);
+    width: 80%;
+    height: 80%;
+    border-radius: var(--radius-phone);
+    box-shadow: 0 0 2.1rem 1.4rem rgba(0, 0, 0, 0.055);
+    background-color: var(--dark-overlay);
+    transform-style: preserve-3d;
+    transition: transform 1s ease-in-out;
+    backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    transition-delay: 0.1s;
+    will-change: transform, opacity;
+    z-index: 1;
+}
+.vertical-center {
+    transform: translateY(0%) rotateX(0deg);
+}
+.top {
+    transform: translateY(-50%) rotateX(100deg);
+}
+.bottom {
+    transform: translateY(100%) rotateX(-100deg);
+}

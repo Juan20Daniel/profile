@@ -1,0 +1,109 @@
+.box-btn-nav .btn-nav {
+    width: 100%;
+    height: 100%;
+    border-radius: 3rem;
+    font-size: 1.4rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+.box-btn-nav .btn-black:active {
+    color: var(--light-gray);
+}
+.active .btn-white,
+.active .btn-black,
+.active .btn-blue,
+.active .btn-green,
+.active .btn-orange {
+    width: 14rem;
+    height: 3.5rem;
+    color: var(--white);
+}
+.active .btn-white,
+.box-btn-nav .btn-black {
+    color: var(--black);
+}
+.box-btn-nav .btn-white {
+    color: var(--white);
+}
+.box-btn-nav .btn-white:active {
+    color: var(--black-active);
+}
+.active .btn-black {
+    background-color: var(--black);
+    color: var(--white);
+    box-shadow: 0 0 0.4rem rgba(0, 0, 0, 0.548);
+}
+.active .btn-black:active {
+    background-color: var(--black-active);
+}
+.active .btn-white {
+    background-color: var(--white);
+    color: var(--black);
+    box-shadow: 0 0.3rem 0.4rem rgba(0, 0, 0, 0.308);
+}
+.active .btn-white:active {
+    background-color: var(--light-gray);
+}
+.active .btn-blue {
+    background-color: var(--blue);
+    box-shadow: 0 0 0.4rem var(--blue-shadow);
+}
+.active .btn-blue:active {
+    background-color: var(--blue-active);
+}
+.active .btn-green {
+    background-color: var(--green);
+    box-shadow: 0 0 0.4rem var(--green-shadow);
+}
+.active .btn-green:active {
+    background-color: var(--green-active);
+}
+.active .btn-orange {
+    background-color: var(--orange);
+    box-shadow: 0 0 0.5rem var(--orange-shadown);
+}
+.active .btn-orange:active {
+    background-color: var(--orange-active);
+}
+
+@media(min-width:700px) and (min-height:330px) {
+    .box-btn-nav .btn-nav {
+        font-size: 1rem;
+    }
+    .active .btn-black,
+    .active .btn-white,
+    .active .btn-blue,
+    .active .btn-green,
+    .active .btn-orange {
+        width: 11rem;
+        height: 2.5rem;
+    }
+}
+
+@media(min-width:1000px) and (min-height:530px) {
+    .box-btn-nav .btn-nav {
+        font-size: 1.5rem;
+    }
+    .active .btn-black,
+    .active .btn-white,
+    .active .btn-blue,
+    .active .btn-green,
+    .active .btn-orange {
+        width: 15rem;
+        height: 3.5rem;
+    }
+}
+
+@media(min-height: 1000px) and (min-width: 1000px) {
+    .box-btn-nav .btn-nav {
+        font-size: 1.8rem;
+    }
+    .active .btn-black,
+    .active .btn-white,
+    .active .btn-blue,
+    .active .btn-green,
+    .active .btn-orange {
+        width: 17rem;
+        height: 4rem;
+    }
+}

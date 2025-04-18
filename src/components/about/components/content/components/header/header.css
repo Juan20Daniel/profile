@@ -1,0 +1,168 @@
+header .nav-about {
+    justify-content: flex-end;
+}
+.horizontal header .nav-about .as-disable-menu {
+    display: flex;
+}
+.horizontal header .nav-about .as-show-btns {
+    display: none;
+}
+header .box-specialty {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--white);
+    height: 100%;
+    gap: 0.5rem;
+}
+
+header .box-specialty .specialty,
+header .box-specialty .languege {
+    font-weight: 300;
+} 
+header .box-specialty .specialty {
+    font-size: 2rem;
+}
+.horizontal header .box-specialty .specialty {
+    font-size: 2rem;
+}
+header .box-specialty .languege {
+    font-size: 1.3rem;
+}
+.horizontal header .box-specialty .languege {
+    font-size: 1.6rem;
+}
+
+@media(min-width:400px) {
+    header .box-specialty .specialty {
+        font-size: 3rem;
+    }
+    header .box-specialty .languege {
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width: 600px) {
+    header .box-specialty .specialty {
+        font-size: 4rem;
+    }
+
+    header .nav-about {
+        justify-content: center;
+    }
+    .horizontal header .nav-about {
+        justify-content: flex-end;
+    }
+    header .nav-about .as-disable-menu {
+        display: none;
+    }
+    header .nav-about .as-show-btns {
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    header .box-specialty .languege {
+        font-size: 2.5rem;
+    }
+    .horizontal header .box-specialty .specialty {
+        font-size: 2rem;
+    }
+    .horizontal header .box-specialty .languege {
+        font-size: 1.7rem;
+    }
+}
+
+@media(min-width:800px) {
+    .horizontal header .box-specialty .specialty {
+        font-size: 2.5rem;
+    }
+    .horizontal header .box-specialty .languege {
+        font-size: 1.8rem;
+    }
+}
+
+@media(min-width: 850px)  {
+    .horizontal header .nav-about {
+        justify-content: flex-end;
+    }
+    .horizontal header .nav-about .as-disable-menu {
+        display: none;
+    }
+    .horizontal header .nav-about .as-show-btns {
+        display: flex;
+    }
+}
+
+@media(min-width: 850px) and (min-height: 600px) {
+    .horizontal header .nav-about .align-vertical {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 15rem;
+        gap: 2rem;
+    }
+}
+
+@media(min-width:700px) {
+    header .nav-about .as-show-btns {
+        gap: 3rem;
+    }
+}
+@media(min-width:800px) {
+    header .nav-about .as-show-btns {
+        gap: 4rem;
+    }
+}
+@media(min-width:1000px) {
+    header .box-specialty .specialty {
+        font-size: 6rem;
+    }
+    header .box-specialty .languege {
+        font-size: 3.5rem;
+    }   
+}
+
+@media(min-width:1200px) {
+    .horizontal header .box-specialty .specialty {
+        font-size: 3rem;
+    }
+    .horizontal header .box-specialty .languege {
+        font-size: 2rem;
+    }   
+}
+@media(min-width:1400px) {
+    .horizontal header .box-specialty .specialty {
+        font-size: 4rem;
+    }
+    .horizontal header .box-specialty .languege {
+        font-size: 2.5rem;
+    }   
+}
+@media(min-width:1700px) {
+    .horizontal header .nav-about .align-vertical {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        width: auto;
+        gap: 2rem;
+    }
+    .horizontal header .box-specialty .specialty {
+        font-size: 5rem;
+    }
+    .horizontal header .box-specialty .languege {
+        font-size: 3rem;
+    }   
+    header .align-vertical {
+        width: 22rem;
+    }
+}
+
+@media(min-width:2100px) and (min-height: 1200px) {
+    .horizontal header .box-specialty .specialty {
+        font-size: 7rem;
+    }
+    .horizontal header .box-specialty .languege {
+        font-size: 5rem;
+    }   
+}

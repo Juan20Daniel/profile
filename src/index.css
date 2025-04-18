@@ -1,13 +1,30 @@
 :root {
   --white: #ffffff;
   --black: #000000;
+  --black-active: #707070;
+  --light-gray: #c4c4c4;
+  --box-shadow: #0000003f;
+  --gray: #666666;
   --coffee: #CC9A48;
   --soft-mocha: #826343;
   --blue: #3C95FF;
+  --blue-actie: #d3e7ff;
+  --blue-active: #86bbfc;
+  --blue-shadow: #3c94ffbb;
   --green: #13361C;
+  --soft-sage: #cad8cd;
+  --green-active: #3b6847;
+  --green-shadow: #325f3d;
   --orange: #FF7A00;
+  --coral-haze: #fde9d5;
+  --orange-active: #fdad5d;
+  --orange-shadown: #ff7b00;
+  --font-light: 300;
   --font-regular: 400;
   --font-bold: 600;
+  --font-family: "Raleway", serif;
+  --radius-phone: 3rem;
+  --radius-table: 4rem;
 }
 
 * {
@@ -17,5 +34,18 @@
 }
 html {
   font-size: 62.5%;
+  font-family: var(--font-family);
+}
+html,
+body {
+  background-color: var(--white);
+  min-width: 32rem;
+  overflow: hidden;
+}
+
+button {
+  outline: none;
+  border: none;
+  background: none;
   font-family: "Raleway", serif;
 }

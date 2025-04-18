@@ -1,0 +1,165 @@
+.about {
+    margin: 1rem 2rem 1rem 2rem;
+}
+.horizontal .about {
+    margin: 0 0 1rem 2rem;
+}
+.about .about-title {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.horizontal .about .about-title {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+.about .about-title span {
+    color: var(--soft-mocha);
+}
+.about .description {
+    font-size: 0.8rem;
+    width: 100%;
+    max-width: 23.1rem;
+}
+.horizontal .about .description {
+    font-size: 0.8rem;
+    max-width: 23.1rem;
+}
+@media(min-height: 350px) {
+    .horizontal .about .about-title {
+        font-size: 2rem;
+    }
+}
+@media(min-height: 400px) {
+    .horizontal .about .about-title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+    .horizontal .about .description {
+        font-size: 0.9rem;
+    }
+}
+@media(min-height: 500px) {
+    .horizontal .about {
+        padding-top: 1rem;
+        margin: 0 0 2rem 2rem;
+    }
+    .horizontal .about .about-title {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+    }
+    .horizontal .about .description {
+        font-size: 0.9rem;
+    }
+}
+@media(min-height: 600px) {
+    .about {
+        margin: 1.5rem 2rem 1.5rem 2rem;
+    }
+    .horizontal .about {
+        margin: 0 0 2rem 4rem;
+    }
+    .about .description {
+        font-size: 0.9rem;
+        max-width: 25rem;
+    }
+    .horizontal .about .about-title {
+        font-size: 4rem;
+    }
+    .horizontal .about .description {
+        font-size: 1.3rem;
+        max-width: 34rem;
+    }
+
+}
+
+@media(min-height: 800px) {
+    .about {
+        margin: 2rem;
+    }
+    .horizontal .about {
+        margin: 0 0 2rem 4rem;
+    }
+    .about .description {
+        font-size: 1rem;
+        max-width: 25.5rem;
+    }
+
+    .horizontal .about .description {
+        font-size: 1.5rem;
+        max-width: 40rem;
+    }
+}
+@media(min-height: 900px) {
+    .about {
+        margin: 2.5rem 2rem 2.5rem 2rem;
+    }
+    .horizontal .about {
+        margin: 0 0 3rem 6rem;
+    }
+    .about .about-title {
+        font-size: 4rem;
+    }
+    
+    .horizontal .about .description {
+        font-size: 1.8rem;
+        max-width: 48rem;
+    }
+}
+@media(min-width: 600px) {
+    .about {
+        margin: 1.5rem 4rem 1.5rem 4rem;
+    }
+    .about .about-title {
+        font-size: 4rem;
+    }
+    .about .description {
+        font-size: 1.5rem;
+        max-width: 40rem;
+    }
+}
+@media(min-width: 800px) {
+    .about {
+        margin: 2.5rem 4rem 2.5rem 4rem;
+    }
+    .about .description {
+        font-size: 1.9rem;
+        max-width: 55rem;
+    }
+}
+@media(min-width: 1000px) {
+    .about {
+        margin: 3rem 4rem 2.5rem 4rem;
+    }
+    .about .description {
+        font-size: 2.2rem;
+        max-width: 60rem;
+    }
+}
+
+@media(min-width:1800px) and (min-height: 1000px) {
+    .horizontal .about .about-title {
+        font-size: 7rem;
+    }
+    
+    .horizontal .about .description {
+        font-size: 2.5rem;
+        max-width: 70rem;
+    }
+}
+
+@media(min-width:2100px) and (min-height: 1200px) {
+    .horizontal .about {
+        margin: 0 0 6rem 6rem;
+    }
+    .horizontal .about {
+        padding-top: 11rem;
+    }
+    .horizontal .about .about-title {
+        font-size: 10rem;
+    }
+    .horizontal .about .description {
+        font-size: 3rem;
+        max-width: 80rem;
+    }
+}
