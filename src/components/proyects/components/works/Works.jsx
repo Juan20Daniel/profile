@@ -2,7 +2,7 @@ import { useContext } from "react";
 import AppContext from '@context/apps/AppsContext';
 import BoxContentApp from "../boxContentApp/BoxContentApp";
 import Galery from "../galery/Galery";
-import InfoProyect from "../infoProyect/InfoProyect";
+import DetailsProyect from "../detailsProyect/DetailsProyect";
 import imgSmall from '@assets/proyects/proyect4/imgSmall.webp';
 import imgBig from '@assets/proyects/proyect4/imgBig.webp';
 import BtnChangeProyect from "../btnChangeProyect/BtnChangeProyect";
@@ -24,7 +24,7 @@ const Works = () => {
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />
-            <InfoProyect 
+            <DetailsProyect
                 title='Works'
                 developmentTools='Node, React, Css y Mysql'
                 description='Una aplicación web creada para una agencia aduanal que sirve para simplificar los trámites y procesos de transporte logístico que se realizan de forma manual y con herramientas poco prácticas.'
@@ -42,7 +42,7 @@ const Works = () => {
                     btnColor='black'
                     action={() => changeApp(3, 'left')}
                 />
-            </InfoProyect>
+            </DetailsProyect>
         </BoxContentApp>
    )
 }

@@ -15,7 +15,7 @@ const BoxContentApp = ({
     const { apps } = useContext(AppContext);
     
     return (
-        <Section styles={`box-content ${apps[position].place}`}>
+        <Section styles={`content ${apps[position].place}`}>
             <Navbar
                 title='Mis proyectos'
                 colorBtnMenu='black'
@@ -38,10 +38,10 @@ const BoxContentApp = ({
                     action={() => changeSection(1, 0)}
                 />    
             </Navbar>
-            <div className={`box-info-app font-color-${colorCard}`}>
-                <div className="box-center-info-app">
+            <div className={`box-info-proyect font-color-${colorCard}`}>
+                <div className="center-info-proyect">
                     <img className="figure-proyects" src={figure} alt="Figura" />
-                    <div className="info-app">
+                    <div className="info-proyect">
                         {children}
                     </div>
                     <img className="figure-proyects" src={figure} alt="Figura" />

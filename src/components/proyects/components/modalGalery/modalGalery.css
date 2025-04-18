@@ -1,0 +1,27 @@
+.modal-galery {
+    position: absolute;
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-self: flex-end;
+    background: rgb(255, 255, 255);
+    border-radius: 2;
+    padding: 1rem;
+    z-index: 2;
+}   
+.horizontal .modal-galery {
+    border-radius: 0;
+    right: 0;
+    width: 50%;
+    height: 100vh;
+}
+.modal-galery .img-proyect {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+@media(min-width: 1800px) {
+    .horizontal .modal-galery {
+        width: 80rem;
+    }   
+}

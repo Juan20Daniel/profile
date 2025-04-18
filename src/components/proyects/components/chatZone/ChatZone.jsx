@@ -2,7 +2,7 @@ import { useContext } from "react";
 import AppContext from '@context/apps/AppsContext';
 import BoxContentApp from "../boxContentApp/BoxContentApp";
 import Galery from "../galery/Galery";
-import InfoProyect from "../infoProyect/InfoProyect";
+import DetailsProyect from "../detailsProyect/DetailsProyect";
 import imgSmall from '@assets/proyects/proyect2/imgSmall.png';
 import imgBig from '@assets/proyects/proyect2/imgBig.png';
 import BtnChangeProyect from "../btnChangeProyect/BtnChangeProyect";
@@ -25,7 +25,7 @@ const ChatZone = () => {
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />
-            <InfoProyect 
+            <DetailsProyect
                 title='Chat, Zone'
                 developmentTools='Node, React, Css y Mongodb'
                 description='Un chat web con sistema de rutas complejo y con el uso de comunicación bidireccional con socket.io.'
@@ -43,7 +43,7 @@ const ChatZone = () => {
                     btnColor='green'
                     action={() => changeApp(1, 'left')}
                 />
-            </InfoProyect> 
+            </DetailsProyect> 
         </BoxContentApp>
     )
 }

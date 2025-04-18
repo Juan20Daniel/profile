@@ -2,7 +2,7 @@ import { useContext } from "react";
 import AppContext from '@context/apps/AppsContext';
 import BoxContentApp from "../boxContentApp/BoxContentApp";
 import Galery from "../galery/Galery";
-import InfoProyect from "../infoProyect/InfoProyect";
+import DetailsProyect from "../detailsProyect/DetailsProyect";
 import imgSmall from '@assets/proyects/proyect3/imgSmall.png';
 import imgBig from '@assets/proyects/proyect3/imgBig.png';
 import BtnChangeProyect from "../btnChangeProyect/BtnChangeProyect";
@@ -25,7 +25,7 @@ const Vituchs = () => {
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />
-            <InfoProyect 
+            <DetailsProyect
                 title='Vituchs loggistics'
                 developmentTools='Node, React, Css y Mysql'
                 description='Una aplicación web creada para una agencia aduanal que sirve para simplificar los trámites y procesos de transporte logístico que se realizan de forma manual y con herramientas poco prácticas.'
@@ -43,7 +43,7 @@ const Vituchs = () => {
                     btnColor='orange'
                     action={() => changeApp(2, 'left')}
                 />
-            </InfoProyect> 
+            </DetailsProyect> 
         </BoxContentApp>
    )
 }

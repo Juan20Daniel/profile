@@ -1,3 +1,17 @@
+/*
+en horizontal
+min-height: 600px margin 4rem; 
+min-heigth: 900px margin 6rem;
+
+min-width:2100px and min-height: 1200px
+.horizontal .about {
+    margin: 0 0 6rem 6rem;
+}
+
+en vertical 
+min-width: 600px margin 4rem; 
+
+*/
 .section-skills {
     background-color: var(--coffee);
     box-shadow: 0 0 1.5rem 0.5rem #ebb762bb;
@@ -45,41 +59,41 @@
     .section-skills .ss-box-content {
         padding: 2rem 4rem;
     }
-    .horizontal .section-skills .ss-box-content {
-        padding-left: 4rem;
-    }
 }
-/* @media(min-height:400px) {
-    .horizontal .ss-box-content .box-list-skills {
-        height: 20rem;
-    }
-} */
+
 @media(min-height:900px) {
     .horizontal .ss-box-content .box-list-skills {
         margin-top: 4rem;
     }
 }
 
-@media(min-width: 700px) and (min-height:1000px) {
+@media(min-width:600px) and (min-height: 800px) {
     .section-skills .ss-box-content {
         padding: 7rem 4rem;
     }
 }
-@media(min-width:1000px) and (min-height:600px){
+@media(min-width:800px) and (min-height: 600px) {
+    .horizontal .section-skills .ss-box-content {
+        padding: 2rem 4rem;
+    }
+}
+@media(min-width:1000px) and (min-height:600px) {
     .horizontal .ss-box-content .box-list-skills {
         height: 20rem;
     }
 }
 
 @media(min-width:1000px) and (min-height:650px){
-    .horizontal .section-skills .ss-box-content {
-        padding: 5rem 4rem;
-    }
     .horizontal .ss-box-content .box-list-skills {
         height: 27rem;
     }
 }
 
+@media(min-width:1000px) and (min-height: 900px) {
+    .horizontal .section-skills .ss-box-content {
+        padding: 5rem 6rem;
+    }  
+}
 
 @media(min-width: 1000px) and (min-height:1300px) {
     .ss-box-content .box-list-skills {

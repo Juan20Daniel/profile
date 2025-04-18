@@ -1,7 +1,7 @@
-import './infoProyect.css';
+import './detailsProyect.css';
 
-const InfoProyect = ({title, developmentTools, description, color, children}) => (
-    <div className="info-proyect">
+const DetailsProyect = ({title, developmentTools, description, color, children}) => (
+    <div className="details-proyect">
         <h1 className={`proyect-title proyect-title-${color}`}>{title}</h1>
         <p className="development-tools">{developmentTools}</p>
         <p className="proyect-description">{description}</p>
@@ -12,4 +12,4 @@ const InfoProyect = ({title, developmentTools, description, color, children}) =>
 );
 
 
-export default InfoProyect;
+export default DetailsProyect;

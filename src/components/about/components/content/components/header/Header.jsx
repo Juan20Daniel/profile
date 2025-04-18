@@ -1,5 +1,3 @@
-import { useGetOrientation } from '@hooks/useGetOrientation';
-import { useGetSizeWindow } from '@hooks/useGetSizeWindow';
 import SectionContext from "@context/section/SectionContext";
 import Navbar from '@components/navbar/Navbar';
 import BtnNav from '@components/btnNav/BtnNav';
@@ -8,20 +6,13 @@ import './header.css';
  
 const Header = () => {
     const { changeSection } = useContext(SectionContext);
-    const { width, height } = useGetSizeWindow();
-    const { orientation } = useGetOrientation();
-
     return (
         <header>
             <Navbar
                 customStylesNav='nav-about'
                 colorBtnMenu='white'
                 customStylesBtnMenu='as-disable-menu'
-                customStylesBoxBtns={`
-                    as-show-btns
-                    ${(orientation === 'horizontal' && height >= 700 && width <= 1599) && 
-                        'align-vertical'}
-                `}
+                customStylesBoxBtns='as-show-btns align-vertical'
             >
                 <BtnNav
                     value='Experiencia'
