@@ -1,19 +1,15 @@
-import { useState } from "react";
 import ModalGaleryContext from "./ModalGaleryContext";
 import { useDropdown } from '@hooks/useDropdown';
+
 const ModalGaleryProvider = ({ children }) => {
-    const [ image, setImage ] = useState(null);
-    const { elementRef, dropdown, open } = useDropdown();
-    const showModalGalery = (img) => {
-        setImage(img);
-        open();
-    }
+    const { elementRef, dropdown, close, open } = useDropdown();
+
     return (
         <ModalGaleryContext.Provider value={{
             elementRef, 
             dropdown,
-            image,
-            showModalGalery 
+            open,
+            close 
         }}>
             {children}
         </ModalGaleryContext.Provider>
