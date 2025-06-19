@@ -1,0 +1,53 @@
+.image-item {
+    margin: 3rem 2rem 5rem 2rem;
+}
+.image-item .box-title {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+.image-item .box-title .num {
+    width: 5rem;
+    height: 5rem;
+    border: 1rem solid var(--blue);
+    border-radius: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image-item .box-title .num span {
+    font-size: 1.5rem;
+    font-weight: var(--font-bold);
+}
+.image-item .box-title .title {
+    font-size: 2rem;
+    font-weight: var(--font-bold);
+    padding-right: 2rem;
+}
+.image-item .divider-line {
+    height: 0.1rem;
+    background-color: var(--light-gray);
+    margin: 1rem 0;
+}
+.image-item .img-proyect-min {
+    width: 60%;
+}
+.image-item .img-proyect-full {
+    width: 100%;
+}
+.image-item .img-proyect {
+    object-fit: contain;
+    box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.11);
+}
+.image-item .box-title .guiaMedica {
+    border-color: var(--blue);
+}
+.image-item .box-title .chatZone {
+    border-color: var(--green);
+}
+.image-item .box-title .vituchsLoggistics {
+    border-color: var(--orange);
+}
+.image-item .box-title .works {
+    border-color: var(--black);
+}

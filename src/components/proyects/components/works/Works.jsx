@@ -21,6 +21,7 @@ const Works = () => {
         >
             <Galery 
                 alt='Imagenes de proyecto works'
+                proyectName='works'
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />

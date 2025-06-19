@@ -22,6 +22,7 @@ const ChatZone = () => {
         >
             <Galery 
                 alt='Imagenes de proyecto chat zone'
+                proyectName='chatZone'
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />

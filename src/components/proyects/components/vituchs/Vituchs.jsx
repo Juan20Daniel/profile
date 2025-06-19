@@ -20,8 +20,9 @@ const Vituchs = () => {
             colorCard='orange' 
             navigation={navigation}
         >
-             <Galery 
+            <Galery 
                 alt='Imagenes de proyecto nutrideli'
+                proyectName='vituchsLoggistics'
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />
