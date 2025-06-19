@@ -1,5 +1,6 @@
 import { useContext } from "react";
 import AppContext from '@context/apps/AppsContext';
+import ModalGaleryContext from "@context/modalGalery/ModalGaleryContext";
 import BoxContentApp from "../boxContentApp/BoxContentApp";
 import Galery from "../galery/Galery";
 import DetailsProyect from "../detailsProyect/DetailsProyect";
@@ -14,6 +15,7 @@ const navigation = {
 }
 const Nutrideli = () =>  {
     const { changeApp } = useContext(AppContext);
+    const { setProyectName } = useContext(ModalGaleryContext);
     return (
         <BoxContentApp 
             position={0} 
@@ -22,6 +24,7 @@ const Nutrideli = () =>  {
         >
             <Galery 
                 alt='Imagenes de proyecto nutrideli'
+                proyectName='guiaMedica'
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />
@@ -35,7 +38,10 @@ const Nutrideli = () =>  {
                     value='Siguiente'
                     typeAction='next'
                     btnColor='blue'
-                    action={() => changeApp(0, 'left')}
+                    action={() => {
+                        setProyectName(null);
+                        changeApp(0, 'left');
+                    }}
                 />
             </DetailsProyect> 
         </BoxContentApp>

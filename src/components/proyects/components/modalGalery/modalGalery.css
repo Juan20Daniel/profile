@@ -1,24 +1,30 @@
 .modal-galery {
     position: absolute;
-    width: 90%;
-    height: auto;
-    display: flex;
-    justify-self: flex-end;
-    background: rgb(255, 255, 255);
-    border-radius: 2;
-    padding: 1rem;
+    width: 100%;
+    height: 100vh;
+    background: var(--white);
+    box-shadow: -0.5rem 0 0.5rem rgba(0, 0, 0, 0.09);
     z-index: 2;
-}   
+}
+.box-content-galery {
+    width: 100%;
+    height: 100vh;
+    overflow: auto;
+    scrollbar-width: none
+}
+.box-content-galery::-webkit-scrollbar {
+    display: none;
+}
 .horizontal .modal-galery {
-    border-radius: 0;
     right: 0;
     width: 50%;
     height: 100vh;
 }
-.modal-galery .img-proyect {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
+.modal-galery .modal-title {
+    margin-top: 3rem;
+    text-align: center;
+    font-size: 3rem;
+    padding: 0 1rem;
 }
 @media(min-width: 1800px) {
     .horizontal .modal-galery {

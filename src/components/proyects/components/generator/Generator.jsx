@@ -21,6 +21,8 @@ const Generator = () => {
         >
             <Galery 
                 alt='Imagenes de proyecto generador'
+                proyectName='generator'
+                
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />
