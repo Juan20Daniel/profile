@@ -26,6 +26,23 @@
     font-size: 3rem;
     padding: 0 1rem;
 }
+ .modal-galery .content-galery {
+    display: grid;
+    gap: 2rem;
+    padding: 4rem 3rem 4rem;
+} 
+@media(min-width: 500px) {
+    .modal-galery .content-galery {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    } 
+}
+@media(min-width: 900px) {
+    .modal-galery .content-galery {
+        gap: 4rem;
+        padding: 4rem;
+    } 
+}
 @media(min-width: 1800px) {
     .horizontal .modal-galery {
         width: 80rem;
