@@ -6,7 +6,7 @@ const About = () => (
             <span>S</span>obre mi
         </p>
         <p className='description'>
-            Programador full stack con herramientas como node.js, 
+            Frontend | full stack con herramientas como node.js, 
             react.js, react-native, mysql, figma y desplegando en 
             plataformas como heroku, firebase y AWS.
         </p>
