@@ -27,8 +27,8 @@ const Works = () => {
             />
             <DetailsProyect
                 title='Works'
-                developmentTools='Node, React, Css y Mysql'
-                description='Una aplicación web creada para una agencia aduanal que sirve para simplificar los trámites y procesos de transporte logístico que se realizan de forma manual y con herramientas poco prácticas.'
+                developmentTools='Node, React native y MySQL'
+                description='Una aplicación móvil que cumple el propósito de dar a conocer nuevas oportunidades laborales mediante publicaciones por medio de imágenes o personalizadas.'
                 color='black'
             >
                 <BtnChangeProyect
