@@ -20,11 +20,11 @@ const Experience = () => {
                     color='white'
                     action={() => changeSection(3, 2)}
                 />  
-                <BtnNav 
+                <BtnNav
                     value='Mis proyectos'
                     color='white'
                     action={() => changeSection(3, 1)}
-                />    
+                />
                 <BtnNav
                     value='Sobe mi'
                     color='white'
@@ -44,7 +44,7 @@ const Experience = () => {
                     />
                      <ItemCompany 
                         name='Universidad ITECCE'
-                        history='3 años trabajando para la Universidad Itecce en el área de 
+                        history='4 años trabajando para la Universidad Itecce en el área de 
                         Sistemas en la cual he propuesto y desarrollado proyectos para la mejora de sus servicios para los estudiantes.'
                     />
                      <ItemCompany 

@@ -13,7 +13,8 @@
 .active .btn-black,
 .active .btn-blue,
 .active .btn-green,
-.active .btn-orange {
+.active .btn-orange,
+.active .btn-coffee {
     width: 14rem;
     height: 3.5rem;
     color: var(--white);
@@ -66,6 +67,14 @@
     background-color: var(--orange-active);
 }
 
+.active .btn-coffee {
+    background-color: var(--coffee);
+    box-shadow: 0 0 0.5rem var(--coffee-shadow);
+}
+.active .btn-coffee:active {
+    background-color: var(--coffee-active);
+}
+
 @media(min-width:700px) and (min-height:330px) {
     .box-btn-nav .btn-nav {
         font-size: 1rem;
@@ -74,7 +83,8 @@
     .active .btn-white,
     .active .btn-blue,
     .active .btn-green,
-    .active .btn-orange {
+    .active .btn-orange,
+    .active .btn-coffee {
         width: 11rem;
         height: 2.5rem;
     }
@@ -88,7 +98,8 @@
     .active .btn-white,
     .active .btn-blue,
     .active .btn-green,
-    .active .btn-orange {
+    .active .btn-orange,
+    .active .btn-coffee {
         width: 15rem;
         height: 3.5rem;
     }
@@ -102,7 +113,8 @@
     .active .btn-white,
     .active .btn-blue,
     .active .btn-green,
-    .active .btn-orange {
+    .active .btn-orange,
+    .active .btn-coffee {
         width: 17rem;
         height: 4rem;
     }

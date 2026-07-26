@@ -7,6 +7,7 @@ import './modalGalery.css';
 
 const ModalGalery = () => {
     const { elementRef, proyectName } = useContext(ModalGaleryContext);
+    
     return (
         <div className='modal-galery' ref={elementRef}>
             <BtnCloseModal />
@@ -18,6 +19,7 @@ const ModalGalery = () => {
                             key={proyectImage.id}
                             image={proyectImage.img}
                             width={proyectImage.width}
+                            rounded={proyectImage.rounded}
                         />
                     ))}
                 </div>

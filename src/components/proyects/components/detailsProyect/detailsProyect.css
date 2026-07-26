@@ -24,6 +24,9 @@
 .details-proyect .proyect-title-orange {
     color: var(--orange);
 }
+.details-proyect .proyect-title-coffee {
+    color: var(--coffee);
+}
 .details-proyect .development-tools {
     font-size: 0.8rem;
 }
