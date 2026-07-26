@@ -60,6 +60,23 @@
     fill: var(--orange);
 }
 
+
+.btn-color-coffee {
+    background-color: var(--coffee);
+}
+.btn-type-back.btn-color-coffee:active,
+.btn-color-coffee:active {
+    background-color: var(--coffee-active);
+}
+.btn-type-back.btn-color-coffee {
+    color: var(--coffee);
+    background: var(--coral-haze);
+}
+.btn-type-back.btn-color-coffee svg path {
+    fill: var(--coffee);
+}
+
+
 .btn-color-black {
     background-color: var(--black);
 }

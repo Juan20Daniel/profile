@@ -8,9 +8,12 @@
     letter-spacing: 0.1rem;
     z-index: 1;
 }
+
+/* 
+En pantallas pequeñas se sale el texto con esta clase
 .horizontal .section-skills .description {
     width: 30rem;
-}
+} */
 @media(min-height:370px) {
     .section-skills .description {
         font-size: 1.2rem;

@@ -3,8 +3,8 @@ import AppContext from '@context/apps/AppsContext';
 import BoxContentApp from "../boxContentApp/BoxContentApp";
 import Galery from "../galery/Galery";
 import DetailsProyect from "../detailsProyect/DetailsProyect";
-import imgSmall from '@assets/proyects/proyect3/imgSmall.png';
-import imgBig from '@assets/proyects/proyect3/imgBig.png';
+import imgSmall from '@assets/proyects/proyect5/imgSmall.png';
+import imgBig from '@assets/proyects/proyect5/imgBig.png';
 import BtnChangeProyect from "../btnChangeProyect/BtnChangeProyect";
 
 const navigation = {
@@ -16,7 +16,7 @@ const Vituchs = () => {
     const { changeApp } = useContext(AppContext);
    return (
         <BoxContentApp 
-            position={2} 
+            position={4} 
             colorCard='orange' 
             navigation={navigation}
         >
@@ -36,13 +36,13 @@ const Vituchs = () => {
                     value='Átras'
                     typeAction='back'
                     btnColor='orange'
-                    action={() => changeApp(2, 'right')}
+                    action={() => changeApp(4, 'right')}
                 />
                 <BtnChangeProyect
                     value='Siguiente'
                     typeAction='next'
                     btnColor='orange'
-                    action={() => changeApp(2, 'left')}
+                    action={() => changeApp(4, 'left')}
                 />
             </DetailsProyect> 
         </BoxContentApp>

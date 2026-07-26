@@ -3,6 +3,9 @@
     width: 60%;
     box-shadow: 0 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.11);
 }
+.image-item .rounded {
+    border-radius: 10px;
+}
 .image-item .img-proyect-full {
     width: 100%;
 }
@@ -25,5 +28,8 @@
     }
     .image-item .img-proyect {
         width: 100%;
+    }
+    .image-item .rounded {
+        border-radius: 20px;
     }
 }

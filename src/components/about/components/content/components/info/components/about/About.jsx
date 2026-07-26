@@ -6,8 +6,8 @@ const About = () => (
             <span>S</span>obre mi
         </p>
         <p className='description'>
-            Frontend | Full stack con herramientas como node.js, 
-            react.js, react-native, mysql, figma y desplegando en 
+            Frontend con herramientas como node.js, 
+            react.js, next.js react-native, mysql, figma y desplegando en 
             plataformas como heroku, firebase y Vercel.
         </p>
     </div>

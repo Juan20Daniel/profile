@@ -32,7 +32,7 @@ const Header = () => {
                 />    
             </Navbar>
             <div className="box-specialty">
-                <span className='specialty'>Fullstack developer</span>
+                <span className='specialty'>Frontend developer</span>
                 <span className='languege'>Javascript</span>
             </div>
         </header>

@@ -3,7 +3,9 @@ import AppsContext from "./AppsContext";
 
 const AppsProvider = ({children}) => {
     const [ apps, setApps ] = useState([
-        {place:'horizontal-center', app:'nutrideli'},
+        {place:'horizontal-center', app:'bitacoras_app'},
+        {place:'right', app:'bitacoras_web'},
+        {place:'right', app:'nutrideli'},
         {place:'right', app:'chat-zone'},
         {place:'right', app:'vituchs'},
         {place:'right', app:'works'},

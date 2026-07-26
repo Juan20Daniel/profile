@@ -42,12 +42,13 @@ const Skills = () => {
                 <Description />
                 <ul className='box-list-skills'>
                     <ItemSkill value='React.js' />
+                    <ItemSkill value='Next.js' />
                     <ItemSkill value='React Native' />
                     <ItemSkill value='Node.js' />
                     <ItemSkill value='Css & HTML' />
                     <ItemSkill value='Mysql' />
                     <ItemSkill value='Figma' />
-                    <ItemSkill value='Github' />
+                    <ItemSkill value='Git & Github' />
                     <ItemSkill value='Firebase' />
                 </ul>
             </div>

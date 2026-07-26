@@ -1,11 +1,10 @@
 import { useContext } from "react";
 import AppContext from '@context/apps/AppsContext';
-import ModalGaleryContext from "@context/modalGalery/ModalGaleryContext";
 import BoxContentApp from "../boxContentApp/BoxContentApp";
 import Galery from "../galery/Galery";
 import DetailsProyect from "../detailsProyect/DetailsProyect";
-import imgSmall from '@assets/proyects/proyect1/imgSmall.webp';
-import imgBig from '@assets/proyects/proyect1/imgBig.webp';
+import imgSmall from '@assets/proyects/proyect4/imgSmall.webp';
+import imgBig from '@assets/proyects/proyect4/imgBig.webp';
 import BtnChangeProyect from "../btnChangeProyect/BtnChangeProyect";
 
 const navigation = {
@@ -13,40 +12,41 @@ const navigation = {
     skills:[1,2],
     experience:[1,3]
 }
-const Nutrideli = () =>  {
+const MedicanGuia = () => {
     const { changeApp } = useContext(AppContext);
-    const { setProyectName } = useContext(ModalGaleryContext);
     return (
         <BoxContentApp 
-            position={0} 
+            position={3}
             colorCard='blue'
             navigation={navigation}
         >
             <Galery 
-                alt='Imagenes de proyecto nutrideli'
+                alt='Imagenes de proyecto chat zone'
                 proyectName='guiaMedica'
                 imgSmall={imgSmall}
                 imgBig={imgBig}
             />
-            <DetailsProyect 
+            <DetailsProyect
                 title='Guia medica'
                 developmentTools='Node, React native, Mysql'
                 description='Diseñada y creada con el propósito de brindar gran cantidad de publicidad a los consultorios de medicina.'
                 color='blue'
             >
                 <BtnChangeProyect
+                    value='Átras'
+                    typeAction='back'
+                    btnColor='blue'
+                    action={() => changeApp(3, 'right')}
+                />
+                <BtnChangeProyect
                     value='Siguiente'
                     typeAction='next'
                     btnColor='blue'
-                    action={() => {
-                        setProyectName(null);
-                        changeApp(0, 'left');
-                    }}
+                    action={() => changeApp(3, 'left')}
                 />
             </DetailsProyect> 
         </BoxContentApp>
     )
 }
 
-
-export default Nutrideli;
+export default MedicanGuia;
